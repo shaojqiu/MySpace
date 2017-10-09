@@ -108,6 +108,70 @@ OPI IDL
 --------------------------------------------------------------------------------------------------------------
 AX7000002.00   AX700000201
 --------------------------------------------------------------------------------------------------------------
+Wafer Sorter Vendor Lot Receive and Prepare操作方式
+将Sorter切换为Semi-1                    
+放上一个空Foup                   
+进行WaferID Read                  
+FSSLOTMAP   表数据登录               
+TCS Report                  
+#TxWaferSorterOnEqpRpt                  
+ requestUserID:(pptUser)                    
+  userID:(objectIdentifier)                 
+   identifier:"sjunqiu"                 
+   stringifiedObjectReference:""                    
+  password:"vjrovkt"                    
+  newPassword:""                    
+  functionID:""                 
+  clientNode:""                 
+  siInfo:(any[long])                    
+   siInfo:0                 
+ equipmentID:(objectIdentifier)                 
+  identifier:"SJQ-WS01"                 
+  stringifiedObjectReference:""                 
+ actionCode:"WaferIDRead"                   
+ strWaferSorterSlotMapSequence:(pptWaferSorterSlotMapSequence[1])                   
+  [0]:(pptWaferSorterSlotMap)                   
+   portGroup:"PG1"                  
+   equipmentID:(objectIdentifier)                   
+    identifier:"SJQ-WS01"                   
+    stringifiedObjectReference:""                   
+   actionCode:"WaferIDRead"                 
+   requestTime:"2017-09-29-10.59.06.906995"                 
+   direction:"TCS"                  
+   waferID:(objectIdentifier)                   
+    identifier:"shaojunqiuwafer01"                  
+    stringifiedObjectReference:""                   
+   lotID:(objectIdentifier)                 
+    identifier:"shaojunqiulot01"                    
+    stringifiedObjectReference:""                   
+   destinationCassetteID:(objectIdentifier)                 
+    identifier:"FOSB1"                  
+    stringifiedObjectReference:""                   
+   destinationPortID:(objectIdentifier)                 
+    identifier:"P2"                 
+    stringifiedObjectReference:""                   
+   bDestinationCassetteManagedBySiView:0                    
+   destinationSlotNumber:1                  
+   originalCassetteID:(objectIdentifier)                    
+    identifier:"FOSB1"                  
+    stringifiedObjectReference:""                   
+   originalPortID:(objectIdentifier)                    
+    identifier:"P2"                 
+    stringifiedObjectReference:""                   
+   bOriginalCassetteManagedBySiView:0                   
+   originalSlotNumber:1                 
+   requestUserID:(objectIdentifier)                 
+    identifier:"sjunqiu"                    
+    stringifiedObjectReference:""                   
+   replyTime:"2017-09-29-10.59.07.000000"                   
+   sorterStatus:"SP_Sorter_Succeeded"                   
+   slotMapCompareStatus:"OK"                    
+   mmCompareStatus:"OK"                 
+   siInfo:(any[long])                   
+    siInfo:0                    
+ rcTCS:0                    
+Vendor Lot Receive and Prepare                  
+--------------------------------------------------------------------------------------------------------------
 db2 package bind相关资料
 首先对源文件做预编译（precompiler），生成两个部分文件：一部分是纯的C程序源文件，它们和其他的C程序源文件一起，
 经过编译和连接生成可执行的程序（executable program）；而另一部分是bind文件或package文件。Bind文件经过binder操作以后，
@@ -142,3 +206,4 @@ PACKAGE就是根据具体的SQL语句和数据库中的信息生成的针对每�
 在PREP执行时，系统对生成的修改过的C语言程序和BIND文件以及PACKAGE中都加入了一个时间戳。BIND文件在生成PACKAGE时也将时间戳传递下来，
 修改过的C语言程序在生成可执行程序时，同样也将时间戳传递下去。当应用程序运行时，可执行程序是通过时间戳找到相应的PACKAGE，
 如果时间戳不匹配，则说明版本更新，需要做BIND。
+------------------------------------------------------------------------------------------------------------------
