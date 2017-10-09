@@ -1,0 +1,1998 @@
+﻿Array   可重复循环
+Cell    流水线
+Module  装配
+chassis   框架 底盘
+康宁 打日本应刷
+
+glass lot  素板放入设备
+bay 放cassette和与设备连接
+
+涂布 曝光-》去除杂质
+
+配向Inline   将原料分子向一个方向刷
+
+Dummy构成  测试用Lot
+
+分配机  帮助Lot排序，合并
+
+AVG搬运Cassette的设备
+
+rubbing 打毛
+ODF粘合
+
+偏光板
+
+Auto Clave  压合
+
+Color filter
+
+ODF
+
+LT  LeadTime  各工序时间
+
+OHS  Bay的上方搬运系统
+
+IBM Lot 按照数字大小  排序优先度
+
+SPC Tool  Statistical Process Control  检测生产过程是否有问题
+西方电子规则
+
+计算机组成原理→DOS命令→汇编语言→C语言（不包括C++）、代码书写规范→数据结构、编译原理、操作系统→计算机网络、数据库原理、正则表达式→其它语言（包括C++）、架构……
+
+P8-L0RKK   リンク先の権限を付与したので、試してください。
+
+何の値を入力すれば、次の画面へ行けるんでしょうか。
+適当に入力すると。。。が表示されますので
+
+CPJB1000　　　
+SYSADM
+XDMY01->XEDM10
+XEDM10(研磨払出ダミー＃１)->11PX2Z081
+
+https://w3-connections.ibm.com/communities/service/html/communityview?communityUuid=f349a2d4-fbf8-485c-8a33-0fd74dd1fd68#fullpageWidgetId=Wcb028f0edcc2_420f_822a_b3671cf571b9&file=18bf8271-a909-49b7-bdce-1400ddd7347f
+先ほど画面移行に関するガイドを送付しました。
+ガイドに従って修正してください
+
+
+Masaharu Fukuda/Japan/IBM@IBMJP,
+Daisuke Orino/Japan/IBM@IBMJP,
+Takashi Noma/Japan/IBM@IBMJP
+Yasuhiro Nagata/Japan/IBM@IBMJP
+Yoshinori Hirohata/Japan/IBM@IBMJP
+
+修正がもれてしまって   OPID4700P
+
+標題の件　　以下のとおりにご報告いたします。
+研修会を開催する方針　出荷完工報告　　OPID47000
+完工報告実行　　OPID4700P
+
+カット後着工報告 装置選択後
+優先度ID変更（ポップアップ）
+カセット情報
+情報照会：枚葉ノート情報
+枚葉ノート履歴選択
+情報照会：ロットノート情報
+ロットノート履歴選択
+ロット情報
+
+IBMさん
+SYSADM
+
+
+        <tiles:insert definition="bottomLayout">
+        <tiles:put name="body" direct="true"></tiles:put>RTC
+        </tiles:insert>
+
+        OPID16100
+
+        カセット選択ボタン
+        OPI421000
+
+        AARA90110
+
+function X2JS(v)
+{
+    var q="1.1.5";
+    v=v||{};
+    hr();
+    function h()
+    {
+        if(v.escapeMode===undefined){v.escapeMode=true;}v.attributePrefix=v.attributePrefix||"_";v.arrayAccessForm=v.arrayAccessForm||"none";v.emptyNodeForm=v.emptyNodeForm||"text";if(v.enableToStringFunc===undefined){v.enableToStringFunc=true;}v.arrayAccessFormPaths=v.arrayAccessFormPaths||[];if(v.skipEmptyTextNodesForObj===undefined){v.skipEmptyTextNodesForObj=true;}if(v.stripWhitespaces===undefined){v.stripWhitespaces=true;}v.datetimeAccessFormPaths=v.datetimeAccessFormPaths||[];}var g={ELEMENT_NODE:1,TEXT_NODE:3,CDATA_SECTION_NODE:4,COMMENT_NODE:8,DOCUMENT_NODE:9};function r(){function x(z){var y=String(z);if(y.length===1){y="0"+y;}return y;}if(typeof String.prototype.trim!=="function"){String.prototype.trim=function(){return this.replace(/^\s+|^\n+|(\s|\n)+$/g,"");};}if(typeof Date.prototype.toISOString!=="function"){Date.prototype.toISOString=function(){return this.getUTCFullYear()+"-"+x(this.getUTCMonth()+1)+"-"+x(this.getUTCDate())+"T"+x(this.getUTCHours())+":"+x(this.getUTCMinutes())+":"+x(this.getUTCSeconds())+"."+String((this.getUTCMilliseconds()/1000).toFixed(3)).slice(2,5)+"Z";};}}function t(x){var y=x.localName;if(y==null){y=x.baseName;}if(y==null||y==""){y=x.nodeName;}return y;}function o(x){return x.prefix;}function p(x){if(typeof(x)=="string"){return x.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;").replace(/'/g,"&#x27;").replace(/\//g,"&#x2F;");}else{return x;}}function j(x){return x.replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"').replace(/&#x27;/g,"'").replace(/&#x2F;/g,"/");}function l(B,y,A){switch(v.arrayAccessForm){case"property":if(!(B[y] instanceof Array)){B[y+"_asArray"]=[B[y]];}else{B[y+"_asArray"]=B[y];}break;}if(!(B[y] instanceof Array)&&v.arrayAccessFormPaths.length>0){var x=0;for(;x<v.arrayAccessFormPaths.length;x++){var z=v.arrayAccessFormPaths[x];if(typeof z==="string"){if(z==A){break;}}else{if(z instanceof RegExp){if(z.test(A)){break;}}else{if(typeof z==="function"){if(z(B,y,A)){break;}}}}}if(x!=v.arrayAccessFormPaths.length){B[y]=[B[y]];}}}function a(C){var A=C.split(/[-T:+Z]/g);var B=new Date(A[0],A[1]-1,A[2]);var z=A[5].split(".");B.setHours(A[3],A[4],z[0]);if(z.length>1){B.setMilliseconds(z[1]);}if(A[6]&&A[7]){var y=A[6]*60+Number(A[7]);var x=/\d\d-\d\d:\d\d$/.test(C)?"-":"+";y=0+(x=="-"?-1*y:y);B.setMinutes(B.getMinutes()-y-B.getTimezoneOffset());}else{if(C.indexOf("Z",C.length-1)!==-1){B=new Date(Date.UTC(B.getFullYear(),B.getMonth(),B.getDate(),B.getHours(),B.getMinutes(),B.getSeconds(),B.getMilliseconds()));}}return B;}function n(A,y,z){if(v.datetimeAccessFormPaths.length>0){var B=z.split(".#")[0];var x=0;for(;x<v.datetimeAccessFormPaths.length;x++){var C=v.datetimeAccessFormPaths[x];if(typeof C==="string"){if(C==B){break;}}else{if(C instanceof RegExp){if(C.test(B)){break;}}else{if(typeof C==="function"){if(C(obj,y,B)){break;}}}}}if(x!=v.datetimeAccessFormPaths.length){return a(A);}else{return A;}}else{return A;}}function w(z,E){if(z.nodeType==g.DOCUMENT_NODE){var F=new Object;var x=z.childNodes;for(var G=0;G<x.length;G++){var y=x.item(G);if(y.nodeType==g.ELEMENT_NODE){var D=t(y);F[D]=w(y,D);}}return F;}else{if(z.nodeType==g.ELEMENT_NODE){var F=new Object;F.__cnt=0;var x=z.childNodes;for(var G=0;G<x.length;G++){var y=x.item(G);var D=t(y);if(y.nodeType!=g.COMMENT_NODE){F.__cnt++;if(F[D]==null){F[D]=w(y,E+"."+D);l(F,D,E+"."+D);}else{if(F[D]!=null){if(!(F[D] instanceof Array)){F[D]=[F[D]];l(F,D,E+"."+D);}}(F[D])[F[D].length]=w(y,E+"."+D);}}}for(var A=0;A<z.attributes.length;A++){var B=z.attributes.item(A);F.__cnt++;F[v.attributePrefix+B.name]=B.value;}var C=o(z);if(C!=null&&C!=""){F.__cnt++;F.__prefix=C;}if(F["#text"]!=null){F.__text=F["#text"];if(F.__text instanceof Array){F.__text=F.__text.join("\n");}if(v.escapeMode){F.__text=j(F.__text);}if(v.stripWhitespaces){F.__text=F.__text.trim();}delete F["#text"];if(v.arrayAccessForm=="property"){delete F["#text_asArray"];}F.__text=n(F.__text,D,E+"."+D);}if(F["#cdata-section"]!=null){F.__cdata=F["#cdata-section"];delete F["#cdata-section"];if(v.arrayAccessForm=="property"){delete F["#cdata-section_asArray"];}}if(F.__cnt==1&&F.__text!=null){F=F.__text;}else{if(F.__cnt==0&&v.emptyNodeForm=="text"){F="";}else{if(F.__cnt>1&&F.__text!=null&&v.skipEmptyTextNodesForObj){if((v.stripWhitespaces&&F.__text=="")||(F.__text.trim()=="")){delete F.__text;}}}}delete F.__cnt;if(v.enableToStringFunc&&(F.__text!=null||F.__cdata!=null)){F.toString=function(){return(this.__text!=null?this.__text:"")+(this.__cdata!=null?this.__cdata:"");};}return F;}else{if(z.nodeType==g.TEXT_NODE||z.nodeType==g.CDATA_SECTION_NODE){return z.nodeValue;}}}}function m(E,B,D,y){var A="<"+((E!=null&&E.__prefix!=null)?(E.__prefix+":"):"")+B;if(D!=null){for(var C=0;C<D.length;C++){var z=D[C];var x=E[z];if(v.escapeMode){x=p(x);}A+=" "+z.substr(v.attributePrefix.length)+"='"+x+"'";}}if(!y){A+=">";}else{A+="/>";}return A;}function i(y,x){return"</"+(y.__prefix!=null?(y.__prefix+":"):"")+x+">";}function s(y,x){return y.indexOf(x,y.length-x.length)!==-1;}function u(y,x){if((v.arrayAccessForm=="property"&&s(x.toString(),("_asArray")))||x.toString().indexOf(v.attributePrefix)==0||x.toString().indexOf("__")==0||(y[x] instanceof Function)){return true;}else{return false;}}function k(z){var y=0;if(z instanceof Object){for(var x in z){if(u(z,x)){continue;}y++;}}return y;}function b(z){var y=[];if(z instanceof Object){for(var x in z){if(x.toString().indexOf("__")==-1&&x.toString().indexOf(v.attributePrefix)==0){y.push(x);}}}return y;}function f(y){var x="";if(y.__cdata!=null){x+="<![CDATA["+y.__cdata+"]]>";}if(y.__text!=null){if(v.escapeMode){x+=p(y.__text);}else{x+=y.__text;}}return x;}function c(y){var x="";if(y instanceof Object){x+=f(y);}else{if(y!=null){if(v.escapeMode){x+=p(y);}else{x+=y;}}}return x;}function e(z,B,A){var x="";if(z.length==0){x+=m(z,B,A,true);}else{for(var y=0;y<z.length;y++){x+=m(z[y],B,b(z[y]),false);x+=d(z[y]);x+=i(z[y],B);}}return x;}function d(D){var x="";var B=k(D);if(B>0){for(var A in D){if(u(D,A)){continue;}var z=D[A];var C=b(z);if(z==null||z==undefined){x+=m(z,A,C,true);}else{if(z instanceof Object){if(z instanceof Array){x+=e(z,A,C);}else{if(z instanceof Date){x+=m(z,A,C,false);x+=z.toISOString();x+=i(z,A);}else{var y=k(z);if(y>0||z.__text!=null||z.__cdata!=null){x+=m(z,A,C,false);x+=d(z);x+=i(z,A);}else{x+=m(z,A,C,true);}}}}else{x+=m(z,A,C,false);x+=c(z);x+=i(z,A);}}}}x+=c(D);return x;}this.parseXmlString=function(z){var B=window.ActiveXObject||"ActiveXObject" in window;if(z===undefined){return null;}var A;if(window.DOMParser){var C=new window.DOMParser();var x=null;if(!B){try{x=C.parseFromString("INVALID","text/xml").childNodes[0].namespaceURI;}catch(y){x=null;}}try{A=C.parseFromString(z,"text/xml");if(x!=null&&A.getElementsByTagNameNS(x,"parsererror").length>0){A=null;}}catch(y){A=null;}}else{if(z.indexOf("<?")==0){z=z.substr(z.indexOf("?>")+2);}A=new ActiveXObject("Microsoft.XMLDOM");A.async="false";A.loadXML(z);}return A;};this.asArray=function(x){if(x instanceof Array){return x;}else{return[x];}};this.toXmlDateTime=function(x){if(x instanceof Date){return x.toISOString();}else{if(typeof(x)==="number"){return new Date(x).toISOString();}else{return null;}}};this.asDateTime=function(x){if(typeof(x)=="string"){return a(x);}else{return x;}};this.xml2json=function(x){return w(x);};this.xml_str2json=function(x){var y=this.parseXmlString(x);if(y!=null){return this.xml2json(y);}else{return null;}};this.json2xml_str=function(x){return d(x);};this.json2xml=function(y){var x=this.json2xml_str(y);return this.parseXmlString(x);};this.getVersion=function(){return q;};
+}
+
+処理待ち
+
+
+<struct name="transaction">
+  <field name="trx_id"    size="&TRXID_LEN;">ASO055</field>
+  <field name="type_id"   size="&TRXTYPE_LEN;">I</field>
+  <field name="toolid"    size="&TOOLID_LEN;"/>
+  <field name="codecate"  size="&CODECATE_LEN;"/>
+</struct>
+ｓ
+  <field name="trx_id"        size="&TRXID_LEN;">ASO059</field>
+  <field name="type_id"       size="&TRXTYPE_LEN;">I</field>
+  <field name="dpntype_cnt"   size="&ASO059_IARY_SIZE;"/>
+  <field name="dpntype"       size="&DPNTYP_LEN;" multiplicity="&ASO059_IARY;"/>
+  <field name="dpartno"       size="&D_PARTNO_LEN;"/>
+
+MESSAGE[screenId].LABEL_DESC   作成完了　内容変更
+
+MESSAGE_I_NO_LOT_IN_TOOL　　　この装置には処理待ロットがありません。
+MESSAGE_I_NO_PORT_IN_TOOL　　この装置にはポートがありません。
+
+no  casetid  lotId  date_time  prtyid  dpartno  dumWork
+
+"http://jdihdev.yasu.ibm.com:9080/CELWOPIWAR/Request"
+
+FURX8Z06A0
+
+MESSAGE_I_LOGON_SUCCESS  着工報告が正常にされました。
+MESSAGE_I_LOGON_FALSE　　　着工報告に失敗しました。
+MESSAGE_I_SELECT_CASET_PORT   着工報告を行うカセットを選択してください。
+
+LABEL_PORT_ID   ポート
+研磨カット着工報告 作業者ID入力  機能修正　　装置状況  OPID41000不具合修正  message追加   セル前工程の処理状況 機能修正
+
+出荷着工報告　　作成完了　　破棄
+
+S12345678
+MESSAGE_I_CASET_NOT_SELECT　　　カセットが選択されていません。
+MESSAGE_I_NO_BLANK_YN　　　　’Y'　か　’N’　を入力してください。
+MESSAGE_I_SET_BOARDCNT　　　シート枚数を入力してください。
+MESSAGE_I_INPUT_OPERID　　　作業者IDを入力して下さい。
+MESSAGE_I_SET_KANKO_OK　　　　完工報告が正常に処理されました。
+
+研磨カット完工報告作成   ADMINIB-A02L3TC
+https://w3-connections.ibm.com/communities/service/html/communityview?communityUuid=f349a2d4-fbf8-485c-8a33-0fd74dd1fd68#fullpageWidgetId=Wcb028f0edcc2_420f_822a_b3671cf571b9&file=f348b0c1-2efb-4c77-81dc-4c0b66ad8c72
+
+カット後リワーク報告：リワーク後ロット情報 不具合修正    setLotKndDscInfo   lotpst_conv
+
+セル前工程の処理状況調整    casetId  lotId  lotpStat
+
+MESSAGE_I_CANT_GROP_CHG_PNTBL  まとめｸﾞﾙｰﾌﾟ内に異なる品名があるので、ｸﾞﾙｰﾌﾟ装置変更はできません。
+
+lot_no　　　present_logon_dttm　　　　partno　　board_lot
+qid  usedid  scrapno  shipflg  shipdatetime
+基板情報　　選択/解除   研磨カット完工報告実行機能修正
+研磨カット着工報告実行機能修正
+AAE248   FURV9Z140
+位置　　　OPID4700P出荷完工実行
+
+カット後リワーク報告メニュー作業完了
+新規作成
+OPID17000セル前工程の処理状況調整　ACO01インプットのパラメーターを修正
+Bao Jun BJ Yang/China/IBM, Jian SH Zhou/China/IBM, Masayuki Tsujikawa/Japan/IBM@IBMJP@IBMAU, Daisuke Orino/Japan/IBM@IBMJP, Takashi Noma/Japan/IBM@IBMJP, Yasuhiro Nagata/Japan/IBM@IBMJP, Yoshinori Hirohata/Japan/IBM@IBMJP, Zhen Zhou Wang/China/IBM,
+QCRW80040
+
+UT指摘　No.56,57,58の対応修正
+EmplID_Chkファンクションに渡すメニューIDの対応修正
+OPID17000　　まとめグループ登録取消実行　不具合修正
+
+AAE030　　M1RA90830
+FAE047　　000646
+"MESSAGE_I_CANT_GROP_CN" : "まとめｸﾞﾙｰﾌﾟ内に(まとめ済・搬送完了)以外があるので、ｸﾞﾙｰﾌﾟ取消はできません。"
+
+OPID48140　カット後リワーク報告 リワーク前ロット情報　新規作成　斜面
+
+カット後リワーク開始報告の機能修正　カット後リワーク報告：リワーク前ロット情報（OPID48140）　新規作成
+研磨カット着工/完工コードインスペクション結果の対応
+
+OPID410P2不具合修正　配列数が2の場合と2以上の場合のソースを調整
+
+UT指摘N60.優先度が日本語で表示されていない問題の対応
+
+研磨カット完工報告　OPID48100入力域制限の追加とOPID48200新規作成
+
+        "dpartno" : dpartno,
+        "dumWork" : dumWork
+
+色の変換
+OPID48230 カット後リワーク報告 リワーク取消後ロット情報 新規作成
+
+OPID48230リワーク取消前ロット情報画面不具合修正
+QCRW80040
+KARAA0760
+QCRW80050
+TERAA0070
+QCRAA0010
+
+OPID49100　カット後ロットアウト 理由コード選択 新規作成  私の賃上げ要求は拒否され　巨石　お休みの邪魔をしてすみません。
+
+15902198250   zhou jian
+15841103455   yang bao jun
+$('[title = ' + MESSAGE[screenId].MESSAGE_NO_SETTING + ']')
+OPID4A000 カット後ロットエンド：理由コード選択 新規作成
+漂う
+OPID16100 エラーメッセージが重複なので、削除します
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+研磨カット コードインスペクション結果の対応 翳す
+AAE248  FURVAZ010  UT指摘No.83を修正しました  TERAA0670  OPID17100ポップアップ画面の重複を修正
+String docType = "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0" + "Transitional//EN\">\n";
+OPID47000 showTxMessageを追加しました
+D3環境プログラムのダイレクトリー：
+/usr/IBM/WebSphere/AppServer/profiles/AppSrv01/installedApps/jhcmmap05dNode01Cell/WOPIEAR_MF.ear/ARYWOPIWAR.war
+テストデータ
+/lcdview/log/jhaws1/opi/testdata/S12345678
+積極的に自分を向上させ、性格は楽観的で、人を接するのは心から謙虚でいて、事に対するのは真剣に責任感を持ち、強い団体意識もある。
+身の回りの機会を捉えることができる。いつも強い向上心をもて、自分の足りないところを改善することができる　困難に直面でき、自己調整
+どんなことにあっても、あきらめない　新しい団体に打ち解ける能力もあり、困難な仕事を処理　自己の欠点を克服　新しい事を受け入れやすく、
+部屋を片つけてからいやるべけたことをやれ、部屋を片付けてから　　１１桁
+ご確認の程よろしくお願いします。
+ARYWTRXWAR  D3-PB-MES-175 課題の対応 D3-PB-MES-174 D3-PB-MES-197
+"MESSAGE_I_MENU_BEFORE_CUT" : "ｶｯﾄ前ﾒﾆｭｰを利用してください。"  戻る
+
+"MESSAGE_I_LOTID_AND" : "ﾛｯﾄID、ﾗｲﾝｺｰﾄﾞ、作業者IDを入力して下さい。",
+    "LABEL_LINE_CD" : "ﾗｲﾝｺｰﾄﾞ",
+    "MESSAGE_I_INPUT_LINECD" : "ﾗｲﾝｺｰﾄﾞを選択してください",
+    "MESSAGE_I_LOT_LINE_CD_NOT_MATCH" : "ﾛｯﾄのﾗｲﾝｺｰﾄﾞと一致しません。",
+
+    新規D3-DC-MES-0006の対応
+D3-PB-MES-0297の対応
+
+settingFlag
+http://jdihdev.yasu.ibm.com:9080/ARYWOPIWAR_D3/jsp/opi2200/OPI222000.jsp?opemsg=AAA
+AAE065   余分な括弧を削除します
+
+
+2015/09/17
+以下の手順でロットを作成してください。
+
+１．「カセット管理支援」－「条件別カセット一覧」－「使用可能 空カセット一覧」メニューで利用できる空カセットを確認します。
+２．「その他作業支援」－「雑ロット発番」メニューで、品名記号「IBM-TEST-C2」を選択して、雑ロット発番を行います。（発番されたロットNOを控えておきます）
+３．「工程作業支援」－「着工報告」でベイエリアを「XBAY01」に変更し、装置ID「XESL10」で着工を行います。
+４．３と同じ装置IDで完工報告を行います。
+５．「工程作業支援」－「着工報告」でベイエリアを「WBAY01」に変更し、装置ID「WPEP93」で着工を行います。
+６．５と同じ装置IDで完工報告を行います。
+７．研磨カット着工報告のリストに表示されるので、研磨カットの着工、完工を行います。
+８．カット後着工報告でベイエリアを「XDMY01」に変更し、装置ID「XKAN10」にカット後のロット（２で控えたロット）が表示されるようになります。
+AAE248   AAE614  AAE761  AAE762
+P11111110   FURVBZ010   FURVBZ020
+ご都合はよろしければ、お伝えいただく　　OPID41100　　OPID42100
+私はｘｘｘと申します。今年は26歳です。２０１２年に大学を卒業しました、専攻は。卒業以来、対日プロジェクトの仕事をしながら、日本語の勉強をしています、
+今、日本語能力試験2級をとりました。日本語の仕様書とメールの読み書きは問題ありません、開発経験では、今まで5年ぐらいあります、ｃ＋＋、Java、Webなどの技術に習熟し、そして、SIVIEWとLCDVIEW
+の開発を担当しましたので、MESの業務経験もあります。これからの仕事に対してぜひ前向きに努力して、一生懸命頑張りたいと思います。
+どうぞ、ご指導よろしくお願いいたします、以上です。
+
+こんにちは、ｘｘｘと申します。今年26歳になります。２０１２年大学を卒業しました。今まで、ぞっと対日プロジェクトの仕事を従事して日本語を勉強しています、今、日本語能力試験2級をとりました
+、日本語の仕様書とメールの読み書き問題ありません。開発経験では、いままで、5年ぐらいあります、ｃ＋＋、JAVA、WEBなどの技術に習熟し、そして、SIVIEWとLCDVIEWのプロジェクトの開発
+とｍ－の仕事を担当しましたので、MES方面の経験もあります。これからの仕事も前向きに努力して、一生懸命頑張りたいと思います。
+どうぞ、ご指導よろしくお願いいたします、以上です。
+
+ご不明の点またご質問ありましたなら
+
+present_logon_dttm
+<script type="text/javascript" src="<%=request.getContextPath() %>/js/dojo.js" />
+<script type="text/javascript" src="<%=request.getContextPath() %>/js/login.js"/>
+
+父と母、それに私、全部三年です。日本語は下手なので、言いたいことははっきり話せません。今までの仕事中一番苦労したことは何ですか。
+これからどんな仕事をやってみたいですか。何かの認定試験の資格を持っていますか。
+日本語の仕様書を読めますか。
+もっとも楽しかった思い出は何ですか。自立
+D3-PB-MES-0271の対応　　結合
+
+    "MESSAGE_MATOMEI_GRP_INPUT_SUCCESS" : "まとめグループ登録取消しが成功しました。",
+    "MESSAGE_SEL_EQP" : "装置変更が成功しました。"
+
+jsf-impl.jar
+jsf-api.jar
+jstl.jar
+common-logging.jar
+common-beanutils.jar
+common-collections.jar
+common-chain.jar
+common-digester.jar
+
+kyg59513.yasu.ibm.com
+
+AAE065   A1E077   AAE071    A1E079
+QCRAA0010
+
+50006
+
+セル前工程の処理状況
+http://robby.yasu.ibm.com/default.asp#menu
+jijiezh@cn.ibm.com
+liuli1996a
+
+Cybersecurity and Privacy for IBMers 2015
+
+MUXDB
+kyg59513.yasu.ibm.com
+50009
+siv150
+
+gd16e
+g16e
+50006
+GD16E
+
+48000
+49000
+4A000
+
+                viewModel.getCondition().setDurableOperationInfoFlag(true);
+                viewModel.getCondition().setDurableWipOperationInfoFlag(true);
+
+select m from GmMenu m where m.menuNo = :menuNo and m.langCd = :langCd and m.versionNo = :versionNo　　#{pageId}
+foshanshop
+
+su  - gd16e
+
+Hotel Server 账户：d213461
+WASDAEMON        5439582   TCPIP     26100  3704d63d56b71677e000005e0944bad7 7..=V..w.__^.D..
+LogServer        5767324   TCPIP     26040  01d2259756d91677e000009c0944bad7 ..V..w.__..D..
+mmserver         10420420  TCPIP     26200  26100000111111111111111111111111 &.__............
+mmserver01       14024778  TCPIP     26201  26101000111111111111111111111111 &.._............
+smserver         8650774   TCPIP     26300  26200111111111111111111111111111 &_..............
+SPCSERVER        14090276  TCPIP     26400  26400000111111111111111111111111 &@__............
+http://9.68.186.24/default.asp#menu
+
+
+INSERT INTO GD16E.GM_MENU
+(MENU_NO, LANG_CD, MENU_LEVEL, MENU_NM, DISPLAY_URL, SHOW_ORDER, DISPLAY_TYPE_NO, SYS_CREATE_UID, SYS_CREATE_TIME, SYS_UPDATE_UID, SYS_UPDATE_TIME, VERSION_NO, CONTEXT_ID_CD, ICON_STYLE)
+VALUES(43, 'en   ', 3, 'Carrier Information', '/Durable/CarrierInfo', 701200, 1, 'system         ', TO_DATE('2015-09-25 00:00:00','YYYY-MM-DD HH24:MI:SS'), 'mochun         ', TO_DATE('2015-12-18 17:03:11','YYYY-MM-DD HH24:MI:SS'), 0, '', 'ui-icon-document');
+11.14  11.28  12.12  12.25  ICO28CJ0
+maxlength:3
+UsageCountReset
+jcs2010a
+PPTManager environment variable information
+每个人都依靠自己的知识和认识，却又被之所束缚，还将这些称之为现实。但知识和认识是非常暧昧的东西，那个现实也许只不过是镜中花水中月。
+MEditedInfoNotFound
+DSN000096031
+2f4pAVLi  Wang042202
+            List<DataTableColumnModel> list = container.getColumnModels().get("ReticlePodRegList");
+            if(list != null) {
+                int colnum = list.size();
+                for(int i = 0;i < colnum;i++) {
+                    if(list.get(i) != null && list.get(i).getHeader().equals("Reticle Pod ID")) {
+                        list.get(i).setEditable(false);
+                    }
+                    if(list.get(i) != null && list.get(i).getHeader().equals("Instance Name")) {
+                        if()
+                    }
+                }
+            }
+            facesContext.addError(UIMessageID.MInvalidSlotNo);        strUserDataSeq
+IDS_MSG_EDITED_INFO_NOTFOUND            The information to register is not found.  Cybersecurity & Privacy
+
+ReticlePodRegistrationService   UIMessageID
+ScriptParamSearch  scriptParamListViewModel  ScriptParamList 701100  906000   #{reticleListService.modifyID}
+
+DSN000096031/DSN000100415
+j_id404603698_1e83002e:4:selectOneMenuValue
+j_id404603698_1e83002e:4
+form:resultTbl:resultTbl:0:j_id404603698_1e83002e:5:inputValueString
+数据库配置 Hotel:
+Host : hotel.yasu.ibm.com
+Database : MUXDB
+User name : gd16e
+Password : g16e
+Port : 50006
+
+PCassetteMove_Items
+Move Bank for Durable, Move Bank for Durable Result    MNotInBank
+
+Select Reason Code for Durable Hold
+
+http://localhost:9080/wmm/Durable/CarrierInfo.faces?cassetteID=SJQ-CAR01&dswid=8952
+http://localhost:9080/wmm/Durable/CarrierInfo.faces?carrierID=SJQ-CAR01&dswid=8952
+
+else if(viewModel.getEditResultList().get(i).getChangeType() == Posconst.SP_ParVal_Delete) {
+                                viewModel.getEditResultList().get(i).setValueFlag(true);
+                                viewModel.getEditResultList().get(i).setChangeType(Posconst.SP_ParVal_Update);
+                                viewModel.getEditResultList().get(i).setKeyValue(strKeyValue);
+                                viewModel.getEditResultList().get(i).setValue(strValue);
+                                viewModel.getEditResultList().get(nEditIndex).setDisableFlag2(false);
+                                viewModel.getEditResultList().set(nEditIndex, viewModel.getEditResultList().get(i));
+                                viewModel.getEditResultList().remove(i);
+                                break;
+                            }
+
+
+                            Added record is displayed on parameter list and the parameter name has been
+removed from drop down selection liist
+/Durable/Action/ReticlePodReg/ReticlePodRegistration?faces-redirect=true
+
+60920743
+Equipment Reticle Inventory Upload Confirm
+Reticle Pod Port Access Mode
+						<p:selectBooleanCheckbox itemLabel="Notify to TCS"
+							value="#{equipmentAccessModeViewModel.notifyToTCS}" />
+
+/Durable/Action/CarrierReg/CarrierRegistration?faces-redirect=true
+getStrUsageCheckFlag()
+
+    /**
+    * Function Modify ReticlePod
+    */
+    public String onModify() {
+        if (!hasCarrier()) {
+            return null;
+        }
+
+        ObjectIdentifier_struct[] modifyCastIDs = new ObjectIdentifier_struct[1];
+        modifyCastIDs[0] = viewModel.getCarrierInfo().getCassetteID();
+        carrierRegistrationViewModel.getCondition().setModifyIDs(modifyCastIDs);
+        carrierRegistrationViewModel.getCondition().setReturnURL(viewModel.getCurrentURL());
+        return carrierRegistrationViewModel.getCurrentURL(true);
+    }
+
+    ps -ef | grepe wtdgmg
+    ps -ef | grepe wtdgmg
+    nohup startrewtdgmg >/dev/null &
+    ReticlePodPortStatusRecover
+    ReticlePodTransfer
+
+    Sorter Job Action Menu 4500-5000
+
+SJQWSTKTOP02
+
+加班用Claim Code
+O37OV0         IBO37OV0       Canon SiView Maint 2016                           GB0020         General Billable                        N         0.0       0.0       0.0       0.0       0.0       0.0       0.0       0.0
+O44790         IBO44790       Canon Kawasaki Renewal 2016                       GB0020         General Billable                        N         0.0       0.0       0.0       0.0       0.0       0.0       8.0       8.0
+ubuntu lts centos
+emacs  vim
+
+VL000041.00    VL000041.00.01
+               VL000041.00.02
+VL000041.01    VL000041.00.03
+               VL000041.00.04
+
+MMServer Code Operation
+cp -p TxInterFabXferLotReceiveReq.cpp TxInterFabXferLotReceiveReq.cpp.20160401
+
+
+ltx
+stx
+obj
+cd posppt
+
+make TxInterFabXferLotReceiveReq.cpp.o
+
+cd posppt
+make -f mklibs.mak all -->*.a
+mkso
+
+dspprocs -x
+txtsaoclt canonr16:24200 mmserver
+
+slibclean  libcs_pptmgri.so
+cp -p libtxmethods.so $HOME/siviewd1/customize/mm/lib
+libcs_pptmgri.so
+cp -p libcs_pptmgri.so /home/siviewd1/customize//mm/lib
+find / -type f -name "*.txt" -exec grep -l "Iloveyou"{};
+find . -type f  -mtime +1
+find . -name "*.cpp" |xargs grep -l "csObjLot_ContaminationInfo_CheckForProcess_in"
+startmmH_bg.ksh
+update gm_menu set show_order=show_order+'1' where show_order>=62 and show_order<=122 and context_id_cd like '%PTEQ000%'
+MRM  ManuFacturing reference materials
+DCR  Design change request
+PTR  Problem tracking report
+Equipment Status Selection
+Q-Time
+C-D9000046
+IDR_PTLT000V_LOTMENU
+//const UINT DATACOLL_COLUMN_COUNT = 11;	//PSN000100015	//KCS-01.00(C-5) Delete
+//const UINT DATACOLL_COLUMN_COUNT = 10; // KCS-02.00(C-5) Add	//C-D9000046 Delete
+const UINT DATACOLL_COLUMN_COUNT = 12;	//C-D9000046 Add
+
+Kawasaki Change History :
+    Level       Changed By      Date        Change description
+    ----------------------------------------------------------------
+    KCS-01.00   R.Murakami      20080512    KCS-01. Canon C-02 Merge
+                                            KCS-01. PPTClient.rc modify. Mod IDD_PTAR010V_WHATSNEXT(add Rt. Look Ahead Button)
+    KCS-08.00   R.Murakami      20080512    KCS-08. Canon Customize C-34 Merge
+                                            KCS-08. PPTClient.rc new. New IDC_PTAR010V_BTN_DIRECTRESERVE(add Direct Reserve Button)
+
+                                            "public: struct cs_pptOperationNameAttributes__160_struct const & __thiscall _IDL_SEQ_cs_pptOperationNameAttributesSequence__160_0::operator[](unsigned int)const " (??A_IDL_SEQ_cs_pptOperationNameAttributesSequence__160_0@@QBEABUcs_pptOperationNameAttributes__160_struct@@I@Z) が関数 "public: void __thiscall PPTParameterLog::outVariable(class _IDL_SEQ_cs_pptOperationNameAttributesSequence__160_0 const &,char *)" (?outVariable@PPTParameterLog@@QAEXABV_IDL_SEQ_cs_pptOperationNameAttributesSequence__160_0@@PAD@Z) で参照されました。
+
+問題があるケース：　KCS-024   step5,KCS-26   step5,KCS-38  All,KCS-50  All
+
+C-P9000015     R9中Menu bar的All Buffer Reset没有被disable
+C-P9000043     MMClientSetup
+C-P9000110
+11111111 11111111 11100000 00000000
+00100000 00000000
+01000000 00000000
+11111110
+
+//C-D9000116
+
+C-D9000012
+C-P9000009
+C-D9000046
+KCS
+AT000021.00W
+    if( CIMFWStrLen( productID.identifier ) != 0 )
+    {
+//D3100020        sprintf( HV_TMPBUFFER, "AND PRODSPEC_ID = '%s' ", (const char*)(productID.identifier ));
+        sprintf( HV_TMPBUFFER, "AND PRODSPEC_ID LIKE '%s' ", (const char*)(productID.identifier ));   //D3100020
+        CIMFWStrCat( HV_BUFFER, HV_TMPBUFFER);
+    }
+    ×86-365-2368
+    60666  15480651
+    db2 "select lot_id from frlot where lot_id like 'SJQ2016052%'"
+    db2 "select lot_id from frlot
+VL000275.00
+db2 "select * from fsslotmap" | sel
+
+db2 "select D_THESYSTEMKEY from FRPO where CTRLJOB_ID='SJQ-FB02-20160527-0001' with ur"
+D_THESYSTEMKEYに対応するDCItemの数下記のSQLでを取得する
+　　db2 "select count(1) from FRPO_DC_ITEMS where D_THESYSTEMKEY='1w12o7o1g_o6onvy' with ur"
+db2 "select * from FRPO_DC_ITEMS where D_THESYSTEMKEY='1w12o7o1g_o6onvy'"
+db2 "export to FRPO_DC_ITEMS_M1.ixf of IXF select * from FRPO_DC_ITEMS where D_THESYSTEMKEY=1w12o7o1g_o6onvy' and D_SEQNO=1389 with ur"
+
+find .|xargs grep -ri "objLot_mainRouteID_Get_out*"
+
+cd log----->进入log的方法
+/home/siviewd1/customize/csppt/pptmgr/factory
+make -f makefile.bos bos_clean
+make -f makefile.bos mkbos
+
+diff命令
+
+ID_PTEQ000V_OPE_WAFERSORTER_DIRECTJUSTIN
+ID_PTEQ000V_OPE_WAFERSORTER_VENDORLOTRCVANDPRP  OnWSDirectJustIn OnUpdateWSDirectJustIn  IDC_PTEQ404P_STATIC_MODE
+
+txtsaoclt canonr16:24200 mmserver   destinationPortID    destinationCarrierID
+
+Aix查看计算机物理信息   prtconf
+查看逻辑CPU个数    pmcycles -m
+查看物理CPU个数    prtconf|grep Processors
+db2下查看schema下的所有表    list   tables   for   schema   "用户名"
+db2 "select * from frwafer where WAFER_ID='SJQ2016061616'"|sel  VL000321.00
+
+cs_whereNextTransferEqpOR.cpp     Carrier Lift间搬送的问题
+db2端口号查询
+db2 get dbm cfg | grep -i TCP/IP
+cat /etc/services | grep db2c_gd16e
+需要设三个Equipment设为Auto3，然后变成能够Reserve Lot的状态，然后准备一个Lot放到Stocker里，启动DRWDALL,等DRWDALL处理完以后
+就能OpeStart,OpeComp了
+SMルートチェック改善 K29について、1.熟悉功能，2.划分任务和预估时间，3.主画面上两个checkbox开发完成  装置画面の一部Inhibit表示改善(K37)
+shaojqi
+
+Equipment
+Equipment＋Recipe
+Equipment＋Chamber
+Equipment＋Chamber＋Product
+Equipment＋Chamber＋Recipe
+ProcessDefinition＋Equipment
+
+https://w3-01.ibm.com/services/tools/marketplace/displayLogin.wss
+https://w3-01.ibm.com/services/tools/marketplace/displayMyHoursPlan.wss
+
+#define CS_DATAVALUE_WAFERID_ASTERISK_SKIPFLAG  (const char *)"CS_DATAVALUE_WAFERID_ASTERISK_SKIPFLAG"    //C-D9000059
+#define CS_XFER_AREA_PRIORITY_EQPTOEQP          (const char *)"CS_XFER_AREA_PRIORITY_EQPTOEQP"    //C-D9000047
+
+chmod 777 添加可执行权限
+-nl
+en_US
+GRANT ALL PRIVILEGES ON *.* TO 'shaojqiu'@'localhost' IDENTIFIED BY 'shaojqiu' WITH GRANT OPTION;
+FETCH FIRST 10 ROWS ONLY
+com/ibm/siview/workflow/connector/email/ejb
+jdbc/SARDB jdbc/MMDB
+
+查看系统数据库目录db2 list database directory
+Chairman of Academic Evaluation Committee
+Having fulfilled the requirements stipulated by the Academic Degree Regulations of the People’s Republic of China, he is hereby awarded the Degree of Bachelor of Economics.
+<!--     <h:form enctype="multipart/form-data">
+        <p:fileUpload value="#{fileManagedBean.file}" mode="advanced" update="messages"
+                fileUploadListener="#{fileManagedBean.handleFileUpload}" ></p:fileUpload>
+    </h:form>
+    <p:growl id="messages" showDetail="true"/> -->
+×867197700
+
+selectSwitchONOFFGet
+
+Building 1, TC Plaza 477 Songhu Road, Yangpu District, Shanghai, China
+彼は頷いて話し先を促す　　彼は潔く自分の過ちを認めた。  　
+
+IOR:010000001d00000049444c3a43535f505054536572766963654d616e616765723a312e300000000001000000000000006e000000010100001600000063616e6f6e7231362e796173752e69626d2e636f6d00885e4a0000004a4d4249000000130000
+
+sptraceclt canonr16 MMS:90200000111111111111111111111111:24200:EBROKER  修改Log方法
+
+		<ejb-ref
+			name="com.ibm.siview.workflow.bp.chkcastinstk.ChkCASTinSTKBean/cs_pptServiceManager"
+			binding-name="ejblocal:com.ibm.siview.workflow.connector.siviewproxy.ejb.CS_PPTServiceManagerProxy" />
+            
+Canon Kawasaki Siview Replace 2016
+International Project Funded Trip
+Delivery milestone depends on the output of requirement analysis
+3702 460357 65479
+
+eo12wr1k8_o962pm
+000470
+HHKK default
+【UI改善】追加7(Collected Data History画面改善)でProcessJobIDを右端に移動しました
+【UI改善】追加7(Collected Data History画面改善)でProcessJobIDを右端に移動
+【改善】UTSWDで不要なTxRTDInterfaceInqをコールしないようになりました
+【改善】UTSWDで不要なTxRTDInterfaceInqをコールしないようにする
+
+EY : Sjunqiu891128
+
+Here is the summary what you have to do for now and going forward.
+
+AT&T:ShaoZai891128
+pw:shao042202
+
+IBM Notes PW : wang891128
+
+sorter_linkedJobUpdateDR.dr
+
+Let us know if we can be of further assistance
+
+5243-629
+
+InstallShield 2015 Limited Edition
+
+[ERROR   ] CNTR0075E: EnterpriseBean に必要なユーザー提供クラス "com.ibm.siview.workflow.connector.siviewproxy.ejb.BRServiceManagerProxy" が見つからないか、ロードできませんでした。
+[ERROR   ] CNTR4006E: wmm-ear アプリケーションの SiViewProxySMR1601EJB.jar モジュール内の BRServiceManagerProxy エンタープライズ Bean の開始に失敗しました。例外: com.ibm.ejs.container.EJBConfigurationException: Bean class com.ibm.siview.workflow.connector.siviewproxy.ejb.BRServiceManagerProxy could not be loaded
+	at com.ibm.ws.metadata.ejb.EJBMDOrchestrator.loadCustomerProvidedClasses(EJBMDOrchestrator.java:4179)
+	at [internal classes]
+Caused by: java.lang.NoClassDefFoundError: com.ibm.siview.workflow.connector.siviewproxy.ejb.BRServiceManagerProxyRemote
+--------------------------------------------------------------------------
+MUXDB Info:
+MUXDB
+kyg59513.yasu.ibm.com
+50009
+siv150
+si150
+---------------------------------------------------------------------------
+Equipment Monitor: candidate lot reserve( TxEqpMonitorLotReserveReq)
+MMS ENV:
+	export SP_REROUTE_XFER_FLAG=0
+	export SP_EQPMONITOR_SWITCH=1
+1>ModulePD 设置 Equipment Monitor Section: ModulePD-〉SetInNotebook -〉EquipmentMonitor （Build monitor，Monitor， PostMeasurement）
+	2	200	XFPD01.00	Monitor				200	No
+	2	200	XFPD01.00	Post Measurement	300	Yes  -->this must be a measurement Process, and DCSpec is set.
+	2	200	XFPD01.00	De-kit				400	No
+
+2>STB a new lot and operation Locate it to the Equipment Monitor Sectioin ( locate to 200).
+3>Carrier Info -> Status Change -> Xfer Status Recover : Change xfer status to MI.
+4>Equipment Information Window --> Equipment Monitor --> add a new equipment Monitor id, than you can press 'Candidate Info' button and reserve. 
+DSN000103373/DSN000103375
+
+Cannot update the Equipment Monitor Detail of status(MonitorOver) 
+
+CannotUpdateEqpMonitorDetailofStatusMonitorOver
+127076  8270
+
+103368
+
+D19DBM05/19/A/IBM
+
+Web MMC DCSpecGroup setting different
+com.ibm.siview.workflow.util.logging.Logger.SiviewproxyTraceLogger
+//日本防火墙
+http://9.68.186.24/default.asp#menu
+nodejs.org/api  #{pageId ne 'PTIF002' }
+--------------------------------------------------
+SLM Start Lots Reservation
+--------------------------------------------------
+5>SM->equipment->Transport Equipment->SLM Capability: Yes
+  SM->equipment->Resource->add 'Port' and 'WaferIn'
+  SM->Load Purpose!=Any Purpose
+6>MM->Equipment->general->SLM Switch: ON
+
+cp libpptmgri008.so libpptmgri005.so /home/gd16e/mm/lib
+txtsaoclt canonr16:24200
+txtsaoclt hotel:26200
+slibclean libpptmgri008.so libpptmgri005.so
+Candidate Carrier List for Flow Batching
+LCandCarListFlowBatch
+
+To claim >1980 billable hours as productive utilization target in the end of 2016.
+
+Trying to get Japanese-Language Proficiency Test Level-1 and TOEIC Level-A.
+Sparing no effort to improve spoken language and get the capability of communicating with foreign clients without any problem.
+
+Improving communication skills to learn how to resolve problem with other team members.
+Provide technical expertise to my project team actively in support of the development
+of Siview Mux system.
+
+Trying to have a deeper understanding of computer science knowledge including Data Structure,Operating System,Business Knowledge and Network Principle to meet customer requirements more effectively.
+CasListInSelFloatingBatch Carrier List in selected Floating Batch
+
+Canon Inc
+Canon Kawasaki Renewal 2016
+O44790
+900
+723
+MMServer does not have current fab ID.
+MNoCurrentFabID
+I am making effort to complete the user acceptance strategy and implementation plan for the Canon implementation.
+I am working hard to provide my technical expertise to my project team such as programming skills and business knowledge.
+By now I have finished over 50 test case for my project,recording results and sharing the results with my team.
+'Executing' or 'Completed' information can not be deleted.
+MInvalidInterFabXferPlanState
+
+Transfer Information Receive Confirmation
+Transfer State Clear Confirmation
+------------------------------------------------------------------------------------------
+InterFab Transfer Lot Plan Information
+Selecting Original Fab ID,Destination Fab ID and Transfer Type
+Press Operation Selection Accordion Panel and select one record from Select Operation List
+Combox OrgFabID,DesFabID,Transfer Type and Button New,Modify,Clear and Accordion Panel Operation Selection have been disabled
+        
+FSINTERFABXFEROBJ FSINTERFABXFERRED M.0055
+
+runlogserver &
+网络7层协议-------------------------------------------------
+应用层
+表示层
+会话层
+传输层
+网络层
+数据链路层
+物理层
+
+192.168.1.1
+192.168.0.200~225
+50-BD-5F-51-DC-30
+ip138
+
+/usr/bin:/etc:/usr/sbin:/usr/ucb:/home/d000470/bin:/usr/bin/X11:/sbin:.
+/home/gd16e/sqllib/bin:/home/gd16e/sqllib/adm:/home/gd16e/sqllib/misc
+
+JJ000024.00W.01
+
+    border: 1px solid #a8a8a8;
+    background: #c4c4c4 url("#{resource['primefaces-aristo:images/ui-bg_highlight-soft_100_c4c4c4_1x100.png']}") 50% 50% repeat-x;
+    background: #c4c4c4 linear-gradient(top, rgba(255,255,255,0.8), rgba(255,255,255,0));
+    background: #c4c4c4 -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0.8)), to(rgba(255,255,255,0)));
+    background: #c4c4c4 -moz-linear-gradient(top, rgba(255,255,255,0.8), rgba(255,255,255,0)); /*    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#DDFFFFFF, endColorstr=#00FFFFFF);     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#DDFFFFFF, endColorstr=#00FFFFFF)"; */
+    color: #333;
+    font-weight: bold;
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.7);
+    
+00:0c:29:7d:61:71
+
+hotel.yasu.ibm.com  thePPTServiceManager  26100000111111111111111111111111  26200
+hotel.yasu.ibm.com  thePPTServiceManager  27100000111111111111111111111111  27200
+secpol.msc
+
+<g:progressindicator index
+
+FSUSERDEFATTRINFO 
+DNS Server------------------------------------------------------------
+DNS Servers . . . . . . . . . . . : 9.0.148.50
+                                    9.0.146.50
+https://gainclm03.cn.dst.ibm.com:9443/jazz/
+gainclm03.cn.dst.ibm.com
+
+kyg59513.yasu.ibm.com 50009  schema SIV150  user siv150  password si150
+DB2端口---------------------------------------------------------------------------------------------
+db2 port search: db2 get dbm cfg | grep -i service  grep [db2c_gd17e] /etc/services
+
+https://gainclm03.cn.dst.ibm.com:9443/jazz/resource/itemName/com.ibm.team.workitem.WorkItem/104504
+https://gainclm03.cn.dst.ibm.com:9443/jazz/resource/itemName/com.ibm.team.workitem.WorkItem/104503
+select tabname, tbspace from syscat.tables where tabname='EMP'; tabname='表名大写'
+select tabname, tbspace from syscat.tables where tabname='EMP'
+
+000470672
+-------------------------------------------------------------------------------------
+数据库四大特性： 原子性，一致性，隔离性，持久性。
+Maven相关信息------------------------------------------------------------------------
+Maven的下载地址 : http://mirrors.ibiblio.org/maven2/
+Maven的插件列表地址 : http://maven.apache.org/plugins/index.html
+                     http://mojo.codehaus.org/plugins.html
+                     第二个列表的GroupId为org.codehaus.mojo
+Maven中央库 : https://mvnrepository.com
+
+form:dcSpecAccp:limit:specItemPnl
+
+1-18 PTEQ901 9.68.186.24
+
+hotel.yasu.ibm.com
+thePPTServiceManager
+26100000111111111111111111111111
+26200
+
+ChangeSLMSwitch.xhtml         ????  删除  DB需要修正
+OpeStartCancel.xhtml          ??    删除
+OpeStartCancelResult.xhtml    ??   删除
+RunningHold.xhtml             ??       删除  DB需要修正
+RunningHoldResult.xhtml       ??  删除
+SpecCheck.xhtml               已经CheckIn  有记录  删除
+OpeStartResult.xhtml          删除
+-------------------------------------------------------------------
+AddUserDefinedDataResult.xhtml 未上传   DB需要修正
+EquipmentNoteAdditionResult.xhtml 未上传  需要CheckIn
+----------------------------------------------------
+STBforControlLot.xhtml  未上传   DB需要修正    Select Carrier,Select Source Lot,Input Wafer,STB for Control Lot Result
+STBforControlLotResult.xhtml 未上传
+STBforControlSelectCarrier.xhtml 未上传
+STBforControlSelectSource.xhtml 未上传
+----------------------------------------------------
+STBforWaferLot.xhtml ??  未上传  DB需要修正    Select Carrier，Select Source Lot，Input Wafer，STB for Wafer Lot Result
+STBforWaferLotResult.xhtml ??
+STBforWaferSelectCarrier.xhtml ??
+STBforWaferSelectSource.xhtml ??
+
+
+db2 "export to fsrsv_sheet2.del of del select * from FSRSV_SHEET2"
+db2 "import from XXX.del of DEL $lob insert into tablename"
+db2 "export to fsrsv_sheet2.del of del select * from FSRSV_SHEET2"
+db2 "import from XXX.del of DEL $lob insert into tablename"
+db2 "import from XXX.del of DEL insert_update into tablename"
+
+FPCCarr02  EM000252.00   EM000210.00
+
+PSN000104877/PSN000104879
+
+sjunqiu        	FILE_ENCODING	SJIS	 		yamamoto2      	2016-04-11.16.10.00.000000	yamamoto2      	2016-04-11.16.10.00.000000	0
+sjunqiu        	needUserAuth	false	 		yamamoto2      	2016-06-17.14.00.00.000000	yamamoto2      	2016-06-27.10.47.40.000000	0
+
+https://bigdatauniversity.com/  BigData入门学习
+http://blog.csdn.net/nwpumaster/article/details/52006290       JavaEE企业级实战
+-------------------------------------------------------------------------------------
+Hotel Introduction
+Address
+
+11 SUKHUMVIT SOI 24 KHLONG TON
+Contact information:
+
+Tel： 66-2-6206666
+FAX： 66-2-6206699
+
+HashMap实现方法-----------------------------------------------------------------------
+/**
+ * 该类是HashMap的一个简单实现。
+ * 
+ * 这里，我主要采用一个元素是链表的数组来模拟JDK中的HashMap实现。 当存入一个键值对（K,V）的时候，
+ 首先计算键（K）对应的HashCode。这个HashCode的值其实就是具体实现过程中用到的数组的索引。
+ 通过计算键的HashCode值便可以知道应该将键值对（K,V）存储在第几个数组元素中。如前所述，
+ 每一个数组元素其实又是一个链表。将键值对存入散列表其实是存入底层数组元素对应的链表结构中。
+ 之所以使用链表作为数组元素是为了避免HashCode相同但又不相等的键造成冲突时候相互覆盖的问题。
+ 这样就很好的解决了可能存在的碰撞冲突问题。
+ * 
+ * @author lhever
+ *
+ * @param <k>
+ * @param <v>
+ */
+public class SimpleHashMap<k, v=""> {
+    public static final int INITIAL_CAPACITY = 4;
+ 
+    private int N;
+    private int M;
+    private SequentialST<k, v="">[] table;
+ 
+    /**
+     * 构造
+     */
+    public SimpleHashMap() {
+        this(INITIAL_CAPACITY);
+    }
+ 
+    /**
+     * 构造，可以指定底层数组的大小
+     * 
+     * @param M
+     */
+    public SimpleHashMap(int M) {
+        this.M = M;
+        table = (SequentialST<k, v="">[]) new SequentialST[M];
+        for (int i = 0; i < M; i++) {
+            table[i] = new SequentialST<k, v="">();
+        }
+ 
+    }
+ 
+    /**
+     * 重新调整底层数组的大小，从实现的角度看，所有已经 存入的键值对会被从新计算散列值并调整存储的位置。
+     * 
+     * @param newSize
+     */
+    private void resize(int newSize) {
+        SimpleHashMap<k, v=""> temp = new SimpleHashMap<k, v="">(newSize);
+        for (int i = 0; i < M; i++) {
+            for (K key : table[i].keys()) {
+                temp.put(key, table[i].get(key));
+            }
+        }
+        this.M = temp.M;
+        this.N = temp.N;
+        this.table = temp.table;
+    }
+ 
+    private int hash(K key) {
+        return (key.hashCode() & 0x7fffffff) % M;
+    }
+ 
+    public int size() {
+        return N;
+    }
+ 
+    public boolean isEmpty() {
+        return size() == 0;
+    }
+ 
+    public boolean contains(K key) {
+        if (key == null) {
+            throw new NullPointerException("参数不能为null");
+        }
+        return get(key) != null;
+    }
+ 
+    public V get(K key) {
+        if (key == null) {
+            throw new NullPointerException("参数不能为null");
+ 
+        }
+        int i = hash(key);
+        return table[i].get(key);
+    }
+ 
+    public void put(K key, V val) {
+        if (key == null) {
+            throw new NullPointerException("key不能为null");
+        }
+        if (val == null) {
+            remove(key);
+            return;
+        }
+ 
+        // 当链表中的平均元素个数大于10的时候增加底层数组的大小（变为两倍大）
+        if (N >= 10 * M) {
+            resize(2 * M);
+        }
+ 
+        int i = hash(key);
+        if (!table[i].contains(key)) {
+            N++;
+        }
+        table[i].put(key, val);
+    }
+ 
+    public void remove(K key) {
+        if (key == null) {
+            throw new NullPointerException("参数不能为null");
+        }
+ 
+        int i = hash(key);
+        if (table[i].contains(key)) {
+            N--;
+            table[i].delete(key);
+        }
+ 
+        // 如果列表中的平均元素个数小于等于2的时候，降低底层数组的大小（变为原来大小的1/2）
+        if (M > INITIAL_CAPACITY && N <= 2 * M) {
+            resize(M / 2);
+        }
+    }
+ 
+    // 返回一个迭代器，其中包含了所有的键
+    public Iterable<k> keys() {
+        Queue<k> queue = new LinkedList<k>();
+        for (int i = 0; i < M; i++) {
+            for (K key : table[i].keys())
+                queue.offer(key);
+        }
+        return (Iterable<k>) queue;
+    }
+ 
+    /**
+     * 测试
+     * 
+     * @param args
+     */
+    public static void main(String... args) {
+ 
+        SimpleHashMap map = new SimpleHashMap<string, string="">();
+ 
+        map.put("country", "China");
+        map.put("level", "super");
+        map.put("nature", "public");
+ 
+        System.out.println(map.get("country"));
+        System.out.println("befor remove, the size is: " + map.size());
+        map.remove("country");
+        System.out.println("after remove, the size is: " + map.size());
+ 
+        for (String key : (Iterable<string>) map.keys()) {
+            System.out.println(key + " : " + map.get(key));
+        }
+ 
+        map.remove("nature");
+        map.remove("level");
+        map.remove("level");
+        System.out.println("after remove, the size is: " + map.size());
+ 
+        for (String key : (Iterable<string>) map.keys()) {
+            System.out.println(key + " : " + map.get(key));
+        }
+ 
+        map.put("size", "960");
+        System.out.println("after put, the size is: " + map.size());
+    }
+ 
+}
+ 
+ 
+////////////////////////////////////////////////////
+ 
+package lhever.Hash_Map;
+ 
+import java.util.LinkedList;
+import java.util.Queue;
+ 
+/**
+ * 该类是一个顺序查找的链表实现，查找元素时候会从第一个节点开始顺序查找，
+ * 该链表实现会被用到SimpleHashMap（JDK中HashMap的一个简单实现）的实现中
+ * 
+ * @author lhever
+ *
+ * @param <k>
+ * @param <v>
+ */
+public class SequentialST<k, v=""> {
+    private int N;
+    private Node first;
+ 
+    /**
+     * 代表一个节点
+     * 
+     * @author lhever
+     */
+    private class Node {
+ 
+        private K key;
+        private V value;
+        private Node next;
+ 
+        public Node(K key, V value, Node next) {
+            this.key = key;
+            this.value = value;
+            this.next = next;
+        }
+ 
+    }
+ 
+    public SequentialST() {
+ 
+    }
+ 
+    public int size() {
+        return N;
+    }
+ 
+    public boolean isEmpty() {
+        return size() == 0;
+    }
+ 
+    public boolean contains(K key) {
+        if (key == null)
+            throw new NullPointerException("参数不能为null");
+        return get(key) != null;
+    }
+ 
+    /**
+     * 查找从第一个节点开始顺序进行
+     * 
+     * @param key
+     * @return
+     */
+    public V get(K key) {
+        if (key == null)
+            throw new NullPointerException("参数不能为null");
+        for (Node node = first; node != null; node = node.next) {
+            if (key.equals(node.key))
+                return node.value;
+        }
+        return null;
+    }
+ 
+    /**
+     * 增加
+     * 
+     * @param key
+     * @param value
+     */
+    public void put(K key, V value) {
+        if (key == null)
+            throw new NullPointerException("参数不能为null");
+        if (value == null) {
+            delete(key);
+            return;
+        }
+ 
+        for (Node node = first; node != null; node = node.next) {
+            if (key.equals(node.key)) {
+                node.value = value;
+                return;
+            }
+        }
+        first = new Node(key, value, first);
+        N++;
+    }
+ 
+    public void delete(K key) {
+        if (key == null)
+            throw new NullPointerException("参数不能为null");
+        first = delete(first, key);
+    }
+ 
+    private Node delete(Node node, K key) {
+        if (node == null)
+            return null;
+        if (key.equals(node.key)) {
+            N--;
+            return node.next;
+        }
+        node.next = delete(node.next, key);
+        return node;
+    }
+ 
+    public Iterable<k> keys() {
+        Queue<k> queue = new LinkedList<k>();
+        for (Node node = first; node != null; node = node.next)
+            queue.offer(node.key);
+        return queue;
+    }
+ 
+}
+
+-------------------------------------------------------------------------
+SJQWSTKBase
+SJQWSTKTOP
+
+PTWS010A,PTWS007,PTWS012,PTWS010B,PTWS010_Result
+
+Wafer Stacking Request（PTWS010）の画面ID
+
+To claim >1980 billable hours as productive utilization target in the end of 2016.
+
+Trying to have a deeper understanding of computer science knowledge including Data Structure,Operating System,Business Knowledge and Network Principle to meet customer requirements more effectively.
+
+Improving communication skills to learn how to resolve problem with other team members.
+Provide technical expertise to my project team actively in support of the development
+of Siview Mux system.
+
+https://github.com/codingXiaxw/CustomerManagement
+正则表达式----------------------------------------------------------------------------------
+^.$()¦*+?{\前需要加上转义字符
+
+1.正则表达式基本语法
+两个特殊的符号'^'和'$'。他们的作用是分别指出一个字符串的开始和结束。例子如下：
+"^The"：表示所有以"The"开始的字符串（"There"，"The cat"等）；
+"of despair$"：表示所以以"of despair"结尾的字符串；
+"^abc$"：表示开始和结尾都是"abc"的字符串——呵呵，只有"abc"自己了；
+"notice"：表示任何包含"notice"的字符串。
+象最后那个例子，如果你不使用两个特殊字符，你就在表示要查找的串在被查找串的任意部分——你并
+不把它定位在某一个顶端。
+其它还有'*'，'+'和'?'这三个符号，表示一个或一序列字符重复出现的次数。它们分别表示“没有或
+更多”，“一次或更多”还有“没有或一次”。下面是几个例子：
+"ab*"：表示一个字符串有一个a后面跟着零个或若干个b。（"a", "ab", "abbb",……）；
+"ab+"：表示一个字符串有一个a后面跟着至少一个b或者更多；
+"ab?"：表示一个字符串有一个a后面跟着零个或者一个b；
+"a?b+$"：表示在字符串的末尾有零个或一个a跟着一个或几个b。
+你也可以使用范围，用大括号括起，用以表示重复次数的范围。
+"ab{2}"：表示一个字符串有一个a跟着2个b（"abb"）；
+"ab{2,}"：表示一个字符串有一个a跟着至少2个b；
+"ab{3,5}"：表示一个字符串有一个a跟着3到5个b。
+请注意，你必须指定范围的下限（如："{0,2}"而不是"{,2}"）。还有，你可能注意到了，'*'，'+'和
+'?'相当于"{0,}"，"{1,}"和"{0,1}"。
+还有一个'¦'，表示“或”操作：
+"hi¦hello"：表示一个字符串里有"hi"或者"hello"；
+"(b¦cd)ef"：表示"bef"或"cdef"；
+"(a¦b)*c"：表示一串"a""b"混合的字符串后面跟一个"c"；
+'.'可以替代任何字符：
+"a.[0-9]"：表示一个字符串有一个"a"后面跟着一个任意字符和一个数字；
+"^.{3}$"：表示有任意三个字符的字符串（长度为3个字符）；
+方括号表示某些字符允许在一个字符串中的某一特定位置出现：
+"[ab]"：表示一个字符串有一个"a"或"b"（相当于"a¦b"）；
+"[a-d]"：表示一个字符串包含小写的'a'到'd'中的一个（相当于"a¦b¦c¦d"或者"[abcd]"）；
+"^[a-zA-Z]"：表示一个以字母开头的字符串；
+"[0-9]%"：表示一个百分号前有一位的数字；
+",[a-zA-Z0-9]$"：表示一个字符串以一个逗号后面跟着一个字母或数字结束。
+你也可以在方括号里用'^'表示不希望出现的字符，'^'应在方括号里的第一位。（如："%[^a-zA-Z]%"表
+示两个百分号中不应该出现字母）。
+为了逐字表达，你必须在"^.$()¦*+?{\"这些字符前加上转移字符'\'。
+请注意在方括号中，不需要转义字符。
+2.正则表达式验证控制文本框的输入字符类型
+1.只能输入数字和英文的：
+<input onkeyup="value=value.replace(/[\W]/g,'') " onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" ID="Text1" NAME="Text1">
+2.只能输入数字的：
+<input onkeyup="value=value.replace(/[^\d]/g,'') " onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))" ID="Text2" NAME="Text2">
+3.只能输入全角的：
+<input onkeyup="value=value.replace(/[^\uFF00-\uFFFF]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\uFF00-\uFFFF]/g,''))" ID="Text3" NAME="Text3">
+4.只能输入汉字的：
+<input onkeyup="value=value.replace(/[^\u4E00-\u9FA5]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\u4E00-\u9FA5]/g,''))" ID="Text4" NAME="Text4">
+3.正则表达式的应用实例通俗说明
+*******************************************************************************
+//校验是否全由数字组成
+/^[0-9]{1,20}$/
+^ 表示打头的字符要匹配紧跟^后面的规则
+$ 表示打头的字符要匹配紧靠$前面的规则
+[ ] 中的内容是可选字符集
+[0-9] 表示要求字符范围在0-9之间
+{1,20}表示数字字符串长度合法为1到20，即为[0-9]中的字符出现次数的范围是1到20次。
+/^ 和 $/成对使用应该是表示要求整个字符串完全匹配定义的规则，而不是只匹配字符串中的一个子串。
+*******************************************************************************
+//校验登录名：只能输入5-20个以字母开头、可带数字、“_”、“.”的字串
+/^[a-zA-Z]{1}([a-zA-Z0-9]|[._]){4,19}$/
+^[a-zA-Z]{1} 表示第一个字符要求是字母。
+([a-zA-Z0-9]|[._]){4,19} 表示从第二位开始（因为它紧跟在上个表达式后面）的一个长度为4到9位的字符串，它要求是由大小写字母、数字或者特殊字符集[._]组成。
+*******************************************************************************
+//校验用户姓名：只能输入1-30个以字母开头的字串
+/^[a-zA-Z]{1,30}$/
+*******************************************************************************
+//校验密码：只能输入6-20个字母、数字、下划线
+/^(\w){6,20}$/
+\w：用于匹配字母，数字或下划线字符
+*******************************************************************************
+//校验普通电话、传真号码：可以“+”或数字开头，可含有“-” 和 “ ”
+/^[+]{0,1}(\d){1,3}[ ]?([-]?((\d)|[ ]){1,12})+$/
+\d：用于匹配从0到9的数字；
+“?”元字符规定其前导对象必须在目标对象中连续出现零次或一次
+可以匹配的字符串如：+123 -999 999 ； +123-999 999 ；123 999 999 ；+123 999999等
+*******************************************************************************
+//校验URL
+/^http[s]{0,1}:\/\/.+$/ 或 /^http[s]{0,1}:\/\/.{1,n}$/ (表示url串的长度为length(“https://”) + n )
+\ / ：表示字符“/”。
+. 表示所有字符的集
++ 等同于{1,}，就是1到正无穷吧。
+*******************************************************************************
+?
+//校验纯中文字符
+/^[\u4E00-\u9FA5]+$/
+[\u4E00-\u9FA5] ：估计是中文字符集的范围吧
+以上表达式均在下面的javascript中测试通过
+<html>
+<script language="JavaScript">
+<!--
+function regx(r,s)
+{
+    if (r == null || r == ""){
+       return false;
+    }
+    var patrn= new RegExp(r);
+    if (patrn.exec(s))
+       return true
+    return false
+}
+-->
+</script>
+<body>
+<form>
+    规则表达式 ： <input type="input" name="regxStr" value="" > (填写/ /之间的表达式)
+<br>
+    校验字符串 ： <input type="input" name="str" value="" >
+    <input type="button" name="match" value="匹配" onClick="alert(regx(regxStr.value,str.value));">
+</form>
+</body>
+</html>
+4.正則表達式應用
+"^\d+$"　　//非负整数（正整数 + 0） 
+"^[0-9]*[1-9][0-9]*$"　　//正整数 
+"^((-\d+)|(0+))$"　　//非正整数（负整数 + 0） 
+"^-[0-9]*[1-9][0-9]*$"　　//负整数 
+"^-?\d+$"　　　　//整数 
+"^\d+(\.\d+)?$"　　//非负浮点数（正浮点数 + 0） 
+"^(([0-9]+\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\.[0-9]+)|([0-9]*[1-9][0-9]*))$"　　//正浮点数 
+"^((-\d+(\.\d+)?)|(0+(\.0+)?))$"　　//非正浮点数（负浮点数 + 0） 
+"^(-(([0-9]+\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\.[0-9]+)|([0-9]*[1-9][0-9]*)))$"　　//负浮点数 
+"^(-?\d+)(\.\d+)?$"　　//浮点数 
+"^[A-Za-z]+$"　　//由26个英文字母组成的字符串 
+"^[A-Z]+$"　　//由26个英文字母的大写组成的字符串 
+"^[a-z]+$"　　//由26个英文字母的小写组成的字符串 
+"^[A-Za-z0-9]+$"　　//由数字和26个英文字母组成的字符串 
+"^\w+$"　　//由数字、26个英文字母或者下划线组成的字符串 
+"^[\w-]+(\.[\w-]+)*@[\w-]+(\.[\w-]+)+$"　　　　//email地址 
+"^[a-zA-z]+://(\w+(-\w+)*)(\.(\w+(-\w+)*))*(\?\S*)?$"　　//url
+/^(d{2}|d{4})-((0([1-9]{1}))|(1[1|2]))-(([0-2]([1-9]{1}))|(3[0|1]))$/   //  年-月-日
+/^((0([1-9]{1}))|(1[1|2]))/(([0-2]([1-9]{1}))|(3[0|1]))/(d{2}|d{4})$/   // 月/日/年
+"^([w-.]+)@(([[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}.)|(([w-]+.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(]?)$"   //Emil
+"(d+-)?(d{4}-?d{7}|d{3}-?d{8}|^d{7,8})(-d+)?"     //电话号码
+"^(d{1,2}|1dd|2[0-4]d|25[0-5]).(d{1,2}|1dd|2[0-4]d|25[0-5]).(d{1,2}|1dd|2[0-4]d|25[0-5]).(d{1,2}|1dd|2[0-4]d|25[0-5])$"   //IP地址
+^([0-9A-F]{2})(-[0-9A-F]{2}){5}$   //MAC地址的正则表达式
+^[-+]?\d+(\.\d+)?$  //值类型正则表达式
+5.javascript正则表达式检验
+?
+//校验是否全由数字组成
+function isDigit(s)
+{
+var patrn=/^[0-9]{1,20}$/;
+if (!patrn.exec(s)) return false
+return true
+}
+//校验登录名：只能输入5-20个以字母开头、可带数字、“_”、“.”的字串
+function isRegisterUserName(s)
+{
+var patrn=/^[a-zA-Z]{1}([a-zA-Z0-9]|[._]){4,19}$/;
+if (!patrn.exec(s)) return false
+return true
+}
+//校验用户姓名：只能输入1-30个以字母开头的字串
+function isTrueName(s)
+{
+var patrn=/^[a-zA-Z]{1,30}$/;
+if (!patrn.exec(s)) return false
+return true
+}
+//校验密码：只能输入6-20个字母、数字、下划线
+function isPasswd(s)
+{
+var patrn=/^(\w){6,20}$/;
+if (!patrn.exec(s)) return false
+return true
+}
+//校验普通电话、传真号码：可以“+”开头，除数字外，可含有“-”
+function isTel(s)
+{
+//var patrn=/^[+]{0,1}(\d){1,3}[ ]?([-]?(\d){1,12})+$/;
+var patrn=/^[+]{0,1}(\d){1,3}[ ]?([-]?((\d)|[ ]){1,12})+$/;
+if (!patrn.exec(s)) return false
+return true
+}
+//校验手机号码：必须以数字开头，除数字外，可含有“-”
+function isMobil(s)
+{
+var patrn=/^[+]{0,1}(\d){1,3}[ ]?([-]?((\d)|[ ]){1,12})+$/;
+if (!patrn.exec(s)) return false
+return true
+}
+//校验邮政编码
+function isPostalCode(s)
+{
+//var patrn=/^[a-zA-Z0-9]{3,12}$/;
+var patrn=/^[a-zA-Z0-9 ]{3,12}$/;
+if (!patrn.exec(s)) return false
+return true
+}
+//校验搜索关键字
+function isSearch(s)
+{
+var patrn=/^[^`~!@#$%^&*()+=|\\\][\]\{\}:;\'\,.<>/?]{1}[^`~!@$%^&()+=|\\\][\]\{\}:;\'\,.<>?]{0,19}$/;
+if (!patrn.exec(s)) return false
+return true
+}
+function isIP(s) //by zergling
+{
+var patrn=/^[0-9.]{1,20}$/;
+if (!patrn.exec(s)) return false
+return true
+}
+/*********************************************************************************
+* FUNCTION: isBetween
+* PARAMETERS: val AS any value
+* lo AS Lower limit to check
+* hi AS Higher limit to check
+* CALLS: NOTHING
+* RETURNS: TRUE if val is between lo and hi both inclusive, otherwise false.
+**********************************************************************************/
+function isBetween (val, lo, hi) {
+if ((val < lo) || (val > hi)) { return(false); }
+else { return(true); }
+}
+/*********************************************************************************
+* FUNCTION: isDate checks a valid date
+* PARAMETERS: theStr AS String
+* CALLS: isBetween, isInt
+* RETURNS: TRUE if theStr is a valid date otherwise false.
+**********************************************************************************/
+function isDate (theStr) {
+var the1st = theStr.indexOf('-');
+var the2nd = theStr.lastIndexOf('-');
+if (the1st == the2nd) { return(false); }
+else {
+var y = theStr.substring(0,the1st);
+var m = theStr.substring(the1st+1,the2nd);
+var d = theStr.substring(the2nd+1,theStr.length);
+var maxDays = 31;
+if (isInt(m)==false || isInt(d)==false || isInt(y)==false) {
+return(false); }
+else if (y.length < 4) { return(false); }
+else if (!isBetween (m, 1, 12)) { return(false); }
+else if (m==4 || m==6 || m==9 || m==11) maxDays = 30;
+else if (m==2) {
+if (y % 4 > 0) maxDays = 28;
+else if (y % 100 == 0 && y % 400 > 0) maxDays = 28;
+else maxDays = 29;
+}
+if (isBetween(d, 1, maxDays) == false) { return(false); }
+else { return(true); }
+}
+}
+/*********************************************************************************
+* FUNCTION: isEuDate checks a valid date in British format
+* PARAMETERS: theStr AS String
+* CALLS: isBetween, isInt
+* RETURNS: TRUE if theStr is a valid date otherwise false.
+**********************************************************************************/
+function isEuDate (theStr) {
+if (isBetween(theStr.length, 8, 10) == false) { return(false); }
+else {
+var the1st = theStr.indexOf('/');
+var the2nd = theStr.lastIndexOf('/');
+if (the1st == the2nd) { return(false); }
+else {
+var m = theStr.substring(the1st+1,the2nd);
+var d = theStr.substring(0,the1st);
+var y = theStr.substring(the2nd+1,theStr.length);
+var maxDays = 31;
+if (isInt(m)==false || isInt(d)==false || isInt(y)==false) {
+return(false); }
+else if (y.length < 4) { return(false); }
+else if (isBetween (m, 1, 12) == false) { return(false); }
+else if (m==4 || m==6 || m==9 || m==11) maxDays = 30;
+else if (m==2) {
+if (y % 4 > 0) maxDays = 28;
+else if (y % 100 == 0 && y % 400 > 0) maxDays = 28;
+else maxDays = 29;
+}
+if (isBetween(d, 1, maxDays) == false) { return(false); }
+else { return(true); }
+}
+}
+}
+/********************************************************************************
+* FUNCTION: Compare Date! Which is the latest!
+* PARAMETERS: lessDate,moreDate AS String
+* CALLS: isDate,isBetween
+* RETURNS: TRUE if lessDate<moreDate
+*********************************************************************************/
+function isComdate (lessDate , moreDate)
+{
+if (!isDate(lessDate)) { return(false);}
+if (!isDate(moreDate)) { return(false);}
+var less1st = lessDate.indexOf('-');
+var less2nd = lessDate.lastIndexOf('-');
+var more1st = moreDate.indexOf('-');
+var more2nd = moreDate.lastIndexOf('-');
+var lessy = lessDate.substring(0,less1st);
+var lessm = lessDate.substring(less1st+1,less2nd);
+var lessd = lessDate.substring(less2nd+1,lessDate.length);
+var morey = moreDate.substring(0,more1st);
+var morem = moreDate.substring(more1st+1,more2nd);
+var mored = moreDate.substring(more2nd+1,moreDate.length);
+var Date1 = new Date(lessy,lessm,lessd); 
+var Date2 = new Date(morey,morem,mored); 
+if (Date1>Date2) { return(false);}
+return(true);
+}
+/*********************************************************************************
+* FUNCTION isEmpty checks if the parameter is empty or null
+* PARAMETER str AS String
+**********************************************************************************/
+function isEmpty (str) {
+if ((str==null)||(str.length==0)) return true;
+else return(false);
+}
+/*********************************************************************************
+* FUNCTION: isInt
+* PARAMETER: theStr AS String 
+* RETURNS: TRUE if the passed parameter is an integer, otherwise FALSE
+* CALLS: isDigit
+**********************************************************************************/
+function isInt (theStr) {
+var flag = true;
+if (isEmpty(theStr)) { flag=false; }
+else
+{ for (var i=0; i<theStr.length; i++) {
+if (isDigit(theStr.substring(i,i+1)) == false) {
+flag = false; break;
+}
+}
+}
+return(flag);
+}
+/*********************************************************************************
+* FUNCTION: isReal
+* PARAMETER: heStr AS String 
+decLen AS Integer (how many digits after period)
+* RETURNS: TRUE if theStr is a float, otherwise FALSE
+* CALLS: isInt
+**********************************************************************************/
+function isReal (theStr, decLen) {
+var dot1st = theStr.indexOf('.');
+var dot2nd = theStr.lastIndexOf('.');
+var OK = true;
+if (isEmpty(theStr)) return false;
+if (dot1st == -1) {
+if (!isInt(theStr)) return(false);
+else return(true);
+}
+else if (dot1st != dot2nd) return (false);
+else if (dot1st==0) return (false);
+else {
+var intPart = theStr.substring(0, dot1st);
+var decPart = theStr.substring(dot2nd+1);
+if (decPart.length > decLen) return(false);
+else if (!isInt(intPart) || !isInt(decPart)) return (false);
+else if (isEmpty(decPart)) return (false);
+else return(true);
+}
+}
+/*********************************************************************************
+* FUNCTION: isEmail
+* PARAMETER: String (Email Address)
+* RETURNS: TRUE if the String is a valid Email address
+* FALSE if the passed string is not a valid Email Address
+* EMAIL FORMAT: AnyName@EmailServer e.g; webmaster@hotmail.com
+* @ sign can appear only once in the email address.
+*********************************************************************************/
+function isEmail (theStr) {
+var atIndex = theStr.indexOf('@');
+var dotIndex = theStr.indexOf('.', atIndex);
+var flag = true;
+theSub = theStr.substring(0, dotIndex+1)
+if ((atIndex < 1)||(atIndex != theStr.lastIndexOf('@'))||(dotIndex < atIndex + 2)||(theStr.length <= theSub.length)) 
+{ return(false); }
+else { return(true); }
+}
+/*********************************************************************************
+* FUNCTION: newWindow
+* PARAMETERS: doc -> Document to open in the new window
+hite -> Height of the new window
+wide -> Width of the new window
+bars -> 1-Scroll bars = YES 0-Scroll Bars = NO
+resize -> 1-Resizable = YES 0-Resizable = NO
+* CALLS: NONE
+* RETURNS: New window instance
+**********************************************************************************/
+function newWindow (doc, hite, wide, bars, resize) {
+var winNew="_blank";
+var opt="toolbar=0,location=0,directories=0,status=0,menubar=0,";
+opt+=("scrollbars="+bars+",");
+opt+=("resizable="+resize+",");
+opt+=("width="+wide+",");
+opt+=("height="+hite);
+winHandle=window.open(doc,winNew,opt);
+return;
+}
+/*********************************************************************************
+* FUNCTION: DecimalFormat
+* PARAMETERS: paramValue -> Field value
+* CALLS: NONE
+* RETURNS: Formated string
+**********************************************************************************/
+function DecimalFormat (paramValue) {
+var intPart = parseInt(paramValue);
+var decPart =parseFloat(paramValue) - intPart;
+str = "";
+if ((decPart == 0) || (decPart == null)) str += (intPart + ".00");
+else str += (intPart + decPart);
+return (str);
+}
+"^\\d+$"　　//非负整数（正整数 + 0） 
+"^[0-9]*[1-9][0-9]*$"　　//正整数 
+"^((-\\d+)|(0+))$"　　//非正整数（负整数 + 0） 
+"^-[0-9]*[1-9][0-9]*$"　　//负整数 
+"^-?\\d+$"　　　　//整数 
+"^\\d+(\\.\\d+)?$"　　//非负浮点数（正浮点数 + 0） 
+"^(([0-9]+\\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\\.[0-9]+)|([0-9]*[1-9][0-9]*))$"　　//正浮点数 
+"^((-\\d+(\\.\\d+)?)|(0+(\\.0+)?))$"　　//非正浮点数（负浮点数 + 0） 
+"^(-(([0-9]+\\.[0-9]*[1-9][0-9]*)|([0-9]*[1-9][0-9]*\\.[0-9]+)|([0-9]*[1-9][0-9]*)))$"　　//负浮点数 
+"^(-?\\d+)(\\.\\d+)?$"　　//浮点数 
+"^[A-Za-z]+$"　　//由26个英文字母组成的字符串 
+"^[A-Z]+$"　　//由26个英文字母的大写组成的字符串 
+"^[a-z]+$"　　//由26个英文字母的小写组成的字符串 
+"^[A-Za-z0-9]+$"　　//由数字和26个英文字母组成的字符串 
+"^\\w+$"　　//由数字、26个英文字母或者下划线组成的字符串 
+"^[\\w-]+(\\.[\\w-]+)*@[\\w-]+(\\.[\\w-]+)+$"　　　　//email地址 
+"^[a-zA-z]+://(\\w+(-\\w+)*)(\\.(\\w+(-\\w+)*))*(\\?\\S*)?$"　　//url
+以上是本文的全部内容，希望大家喜欢。
+-----------------------------------------------------------------------------------------------------
+2616300011111111111
+QA Test地址账号
+tcsblsvr.yasu.ibm.com
+KYGSPDEV\c000470
+shao406347230
+
+d049829
+1980428r
+
+siv17e
+si17e
+MC-CAR00
+
+C:\ProgramData\Oracle\Java\javapath;
+C:\Program Files (x86)\IBM\WebSphere MQ\Java\lib;
+C:\Program Files (x86)\RSA SecurID Token Common;
+C:\IBM\Perl\site\bin;C:\IBM\Perl\bin;
+%SystemRoot%\system32;
+%SystemRoot%;
+%SystemRoot%\System32\Wbem;
+%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;
+C:\Program Files\IBM\Infoprint Select;
+C:\Program Files\ThinkPad\Bluetooth Software\;
+C:\Program Files\ThinkPad\Bluetooth Software\syswow64;
+C:\Program Files\Intel\WiFi\bin\;
+C:\Program Files\Common Files\Intel\WirelessCommon\;
+C:\Program Files (x86)\IBM\Personal Communications\;
+C:\Program Files (x86)\IBM\Trace Facility\;
+c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;
+C:\IBM\SQLLIB\BIN;
+C:\IBM\SQLLIB\FUNCTION;
+C:\IBM\SQLLIB\SAMPLES\REPL;
+%JAVA_HOME%\bin;
+C:\Program Files (x86)\WinMerge;
+%CATALINA_HOME%\lib;
+%CATALINA_HOME%\bin;
+C:\IBM\MySql\bin;
+C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;
+C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;
+C:\Program Files (x86)\nodejs\;
+C:\Program Files\Git\cmd;C:\Program Files\Git\bin;
+C:\IBM\apache-maven-3.3.9\bin;
+C:\Program Files (x86)\IBM\WebSphere MQ\bin64;
+C:\Program Files (x86)\IBM\WebSphere MQ\bin;
+C:\Program Files (x86)\IBM\WebSphere MQ\tools\c\samples\bin;
+C:\Python27;
+C:\Program Files (x86)\Cloud Foundry;
+C:\Program Files\Cloud Foundry;
+C:\Program Files\IBM\Bluemix\bin;
+%GRADLE_HOME%\bin;
+%GROOVY_HOME%\bin
+
+Claim meal allowance according to the guideline
+
+QTR1001578  今、対応しています。火曜日まで完了できます。
+disabled="#{empty fPCDefinitionListViewModel.candidateDCSpecGrpSelection }"
+
+getDcSpecDetailInfoList   selectDCSpec  selectDCSpecGroup()
+<p:ajax event="rowUnselect" update="${cc.attrs.rowSelectUpdate}" />
+Select some DCSpecGroups for Corresponding Operation and press the select button
+
+selectDCSpec（）
+<g:editableDynamicTableWithSelection id="sItemTbl"
+rowSelect="#{fPCDefinitionListViewModel.onRowSelect }"
+"No Lot is specified"
+
+DSN000103376/DSN000103378
+DSN000103373/DSN000103375
+DSN000103371/DSN000103372
+DSN000103379/DSN000103381
+DSN000103744/DSN000103478
+PSN000104174/PSN000104175
+PSN000104265/PSN000104268
+PSN000104298/PSN000104299
+DSN000104504/DSN000104503
+PSN000105129/PSN000105127
+PSN000105133/PSN000105132
+PSN000105137/PSN000105136
+PSN000105166/PSN000105165
+PSN000105189/PSN000105188
+PSN000105212/PSN000105213
+PSN000105241/PSN000105241
+PSN000105095/PSN000105125
+DSN000104412/DSN000104415
+クリアVL000085.00
+hotel_spcdb
+ADMINIB-A02L3TCNode01/siview
+siview
+siv
+
+C:\Program Files (x86)\Java\jdk1.7.0_40
+
+mmc ishida
+qing yamaoku yamada yishida 
+webui takanashi
+
+%JAVA_HOME%\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\IBM\WebSphere MQ\Java\lib;C:\Program Files (x86)\RSA SecurID Token Common;C:\IBM\Perl\site\bin;C:\IBM\Perl\bin;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;C:\Program Files\IBM\Infoprint Select;C:\Program Files\ThinkPad\Bluetooth Software\;C:\Program Files\ThinkPad\Bluetooth Software\syswow64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\IBM\Personal Communications\;C:\Program Files (x86)\IBM\Trace Facility\;c:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\IBM\SQLLIB\BIN;C:\IBM\SQLLIB\FUNCTION;C:\IBM\SQLLIB\SAMPLES\REPL;C:\Program Files (x86)\WinMerge;%CATALINA_HOME%\lib;%CATALINA_HOME%\bin;C:\IBM\MySql\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files (x86)\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\IBM\apache-maven-3.3.9\bin;C:\Program Files (x86)\IBM\WebSphere MQ\bin64;C:\Program Files (x86)\IBM\WebSphere MQ\bin;C:\Program Files (x86)\IBM\WebSphere MQ\tools\c\samples\bin;C:\Python27;C:\Program Files (x86)\Cloud Foundry;C:\Program Files\Cloud Foundry;C:\Program Files\IBM\Bluemix\bin;%GRADLE_HOME%\bin;%GROOVY_HOME%\bin
+转接电话方法
+1）先拨通电话1
+2）more按一下，按下conference
+3）拨电话2，例如下面的日本电话会议电话
+*867197700
+meeting number#
+4）接通上面的电话后，按confirm。如果不想听可以把电话mute，但是不要挂机。 
+
+11:40:27 AM: 先拨 电话1 接通之后，按transfer，再接通电话2，再按下transfer，这样我的电话就可以挂掉了。电话1和2可以通话
+如果我的电话也想加入的话，按more中的conference，那么就是电话会议。我的电话也可以加入 
+
+11:40:28 AM:   
+
+11:40:28 AM:   
+
+11:40:28 AM:   
+
+11:40:29 AM:   
+
+11:40:29 AM: 先拨 电话1 接通之后，按transfer，再接通电话2，再按下transfer，这样我的电话就可以挂掉了。电话1和2可以通话
+如果我的电话也想加入的话，按more中的conference，那么就是电话会议。我的电话也可以加入 
+
+11:40:47 AM: 下面这个方法就是你不听的方法。 
+
+11:41:05 AM: 上面是电话会议把别人也拉进来
+
+UI->Broker->Servlet->SQL->Data
+
+http://localhost:9080/wspc/servlet/com.ibm.siview.wspc.servlet.ReadIndexServlet
+http://regulus.yasu.ibm.com:9081/wspc/wspcui.jsp
+
+MN2_SELECT_GROUP   PROFILE  SPCCM1  SPCCD  SPCFOLDER SPCFOLDER_CHART SPCCM2 SPCGM2
+EqpListSel getUnitedToolInfoSQL  RcpListSel rcpListSel ChartSel rcpListSel  chartSel folderOwnerListySel FolderGroupListSel folderGroupListySel
+FolderChartListSel folderChartListySel
+
+Click the drop down button of ‘Profile’. The method ‘getProfile’ in SelectItemService will be called.
+The options of 'Profile' should be defined as ‘measurement’ and ‘process’ defEqpListSel BRTOOL defRecipeListSel BRRECIPE chamberSel
+SPCCHAMBER routeListSel FRPD OpenoSel BROPENO SPCGDAT SPCGM2 SPCCM2
+ 
+regulus.yasu.ibm.com
+
+Set the options of 'Profile' to measurement and process
+Input 'Group Name' and 'Chart Name'
+Set the options of ‘Equipment’ by searching from table 'BRTOOL'
+Set the options of ‘Recipe’ by searching from table 'FRMRCP'
+Set the options of ‘Work Area' by searching from table 'FRAREA'
+
+Set the options of 'Folder Group' by searching from table 'SPCFOLDER'
+Set the options of 'Folder Name' by searching from table 'SPCFOLDER'
+Set the options of 'Folder Owner' by searching from table 'SPCFOLDER'
+
+eqpListSel rcpListSel eqpListSel searchByHoldViolation   defEqpListSel defRecipeListSel chamberSel routeListSel openoSel
+measurement defRecipeListSel chamberSelByEqp  routeListSel routeListSel  openoSel(routeid)
+
+SELECT d.DC_TYPE,b.CNAME,e.TOTAL_ACTION,b.CTITLE,d.GNAME,c.TOOL_NM FROM SPCCM1 a,SPCCM2 b,SPCGM1 c,SPCGM2 d,SPCGDAT e,SPCFOLDER f
+
+Measurement 	MC-MGrp02-SCA     H	     MC-MGrp02 	XFFB01     XF.RCP01.00        XF-WA1  
+Measurement 	MC-MGrp02-SCA     H	     MC-MGrp02 	MC-IB01    MC.RCP-IB01.00     MC-WA1
+Measurement 	MC-MGrp02-SCA     H	     MC-MGrp02 	MC-FB03    MC.RCP-FB03.00     MC-WA1
+Measurement 	MC-MGrp02-SCA     H	     MC-MGrp02 	MC-FB02    MC.RCP-FB02.00     MC-WA1
+Measurement 	MC-MGrp02-SCA     H	     MC-MGrp02 	XFFB01     XF.RCP01.00        XF-WA1
+
+SELECT d.DC_TYPE,b.CNAME,e.TOTAL_ACTION,b.CTITLE,d.GNAME,c.TOOL_ID,c.RECIPE_ID,g.WORK_AREA 
+FROM SPCCM1 a,SPCCM2 b,SPCGM1 c,SPCGM2 d,SPCGDAT e,BRTOOL g
+WHERE d.DC_TYPE LIKE '？%' AND
+      d.GNAME LIKE '？%' AND 
+      d.GNO = e.GNO AND 
+      d.GNO = b.GNO AND 
+      d.GNO = a.GNO AND
+      d.GNO = c.GNO AND 
+      c.TOOL_ID = g.TOOL_ID AND
+      b.CNAME LIKE '？%' AND 
+      c.TOOL_ID LIKE '？%' AND
+      c.RECIPE_ID LIKE '？%' AND
+      g.WORK_AREA LIKE '？%' AND
+ChartInfo
+
+SELECT DISTINCT dctype,cname,violation.TOTAL_ACTION,ctitle,gname,tool_id,recipe_id,work_area from 
+(SELECT DISTINCT d.GNO gno,d.DC_TYPE dctype,b.CNAME cname,b.CNO CNO,b.CTYPE ctype,b.CTITLE ctitle,d.GNAME gname,c.TOOL_ID tool_id,c.RECIPE_ID recipe_id,g.WORK_AREA work_area
+FROM SPCCM1 a,SPCCM2 b,SPCGM1 c,SPCGM2 d,SPCGDAT e,BRTOOL g
+WHERE d.DC_TYPE LIKE '%' AND
+      d.GNAME LIKE 'MC-MGrp02%' AND
+      d.GNO = b.GNO AND 
+      d.GNO = a.GNO AND
+      d.GNO = c.GNO AND 
+      c.TOOL_ID = g.TOOL_ID AND
+      b.CNAME LIKE '%' AND 
+      c.TOOL_ID LIKE '%' AND
+      c.RECIPE_ID LIKE '%' AND
+      g.WORK_AREA LIKE '%') AS ChartInfo
+      LEFT OUTER JOIN
+      SPCGDAT violation ON ChartInfo.dctype = violation.DC_TYPE AND ChartInfo.gno = violation.GNO AND ChartInfo.cno = violation.CNO AND ChartInfo.ctype = violation.CTYPE
+      WHERE violation.TOTAL_ACTION = 'H' OR violation.TOTAL_ACTION = 'W'
+
+SELECT DISTINCT dctype,cname,violation.TOTAL_ACTION,ctitle,gname,tool_id,recipe_id,work_area from
+(SELECT DISTINCT i.GNO GNO,d.DC_TYPE dctype,b.CNAME cname,b.CTITLE,b.CNO CNO,b.CTYPE ctype,d.GNAME gname,c.TOOL_ID tool_id,c.RECIPE_ID recipe_id,g.WORK_AREA work_area,h.FOLDER_GROUP,h.FOLDER_NAME,h.FOLDER_OWNER
+FROM SPCCM1 a,SPCCM2 b,SPCGM1 c,SPCGM2 d,BRTOOL g,SPCFOLDER h,SPCFOLDER_CHART i
+WHERE d.DC_TYPE LIKE '%' AND
+      b.CNAME LIKE '%' AND
+      h.FOLDER_GROUP LIKE '%' AND
+      h.FOLDER_NAME LIKE '%' AND
+      h.FOLDER_OWNER LIKE '%' AND
+      h.FOLDER_OWNER = i.FOLDER_OWNER AND
+      d.GNO = i.GNO AND
+      i.GNO = b.GNO AND 
+      i.GNO = a.GNO AND
+      i.GNO = c.GNO AND 
+      c.TOOL_ID = g.TOOL_ID) AS ChartInfo
+      LEFT OUTER JOIN
+      SPCGDAT violation ON ChartInfo.dctype = violation.DC_TYPE AND ChartInfo.gno = violation.GNO AND ChartInfo.cno = violation.CNO AND ChartInfo.ctype = violation.CTYPE
+      WHERE violation.TOTAL_ACTION = 'H' OR violation.TOTAL_ACTION = 'W'
+      
+      1.	Search the result of chart list by group and equipment  N:No action O:OK
+      
+SELECT DISTINCT dctype,cname,violation.TOTAL_ACTION,ctitle,gname,tool_id,recipe_id,work_area,violation.PROC_DATETIME from
+(SELECT DISTINCT i.GNO GNO,d.DC_TYPE dctype,b.CNAME cname,b.CTITLE,b.CNO CNO,b.CTYPE ctype,d.GNAME gname,c.TOOL_ID tool_id,c.RECIPE_ID recipe_id,g.WORK_AREA work_area,h.FOLDER_GROUP,h.FOLDER_NAME,h.FOLDER_OWNER
+FROM SPCCM1 a,SPCCM2 b,SPCGM1 c,SPCGM2 d,BRTOOL g,SPCFOLDER h,SPCFOLDER_CHART i
+WHERE d.DC_TYPE LIKE '%' AND
+      b.CNAME LIKE '%' AND
+      h.FOLDER_GROUP LIKE '%' AND
+      h.FOLDER_NAME LIKE '%' AND
+      h.FOLDER_OWNER LIKE '%' AND
+      h.FOLDER_OWNER = i.FOLDER_OWNER AND
+      d.GNO = i.GNO AND
+      i.GNO = b.GNO AND 
+      i.GNO = a.GNO AND
+      i.GNO = c.GNO AND 
+      c.TOOL_ID = g.TOOL_ID) AS ChartInfo
+      LEFT OUTER JOIN
+      SPCGDAT violation ON ChartInfo.dctype = violation.DC_TYPE AND ChartInfo.gno = violation.GNO AND ChartInfo.cno = violation.CNO AND ChartInfo.ctype = violation.CTYPE
+      WHERE violation.TOTAL_ACTION = 'H' OR violation.TOTAL_ACTION = 'W' ORDER BY cname ASC,violation.PROC_DATETIME desc
+      
+      http://regulus.yasu.ibm.com:9060/ibm/console
+      
+SELECT DISTINCT dctype,cname,violation.TOTAL_ACTION,ctitle,gname,tool_id,recipe_id,work_area,violation.PROC_DATETIME from
+(SELECT DISTINCT i.GNO GNO,d.DC_TYPE dctype,b.CNAME cname,b.CTITLE,b.CNO CNO,b.CTYPE ctype,d.GNAME gname,c.TOOL_ID tool_id,c.RECIPE_ID recipe_id,g.WORK_AREA work_area,h.FOLDER_GROUP,h.FOLDER_NAME,h.FOLDER_OWNER
+FROM SPCCM1 a,SPCCM2 b,SPCGM1 c,SPCGM2 d,BRTOOL g,SPCFOLDER h,SPCFOLDER_CHART i
+WHERE d.DC_TYPE LIKE '?%' AND
+      b.CNAME LIKE '?%' AND
+      h.FOLDER_GROUP LIKE '?%' AND
+      h.FOLDER_NAME LIKE '?%' AND
+      h.FOLDER_OWNER LIKE '?%' AND
+      h.FOLDER_OWNER = i.FOLDER_OWNER AND
+      d.GNO = i.GNO AND
+      i.GNO = b.GNO AND 
+      i.GNO = a.GNO AND
+      i.GNO = c.GNO AND 
+      c.TOOL_ID = g.TOOL_ID) AS ChartInfo
+      LEFT OUTER JOIN
+      SPCGDAT violation ON ChartInfo.dctype = violation.DC_TYPE AND ChartInfo.gno = violation.GNO AND ChartInfo.cno = violation.CNO AND ChartInfo.ctype = violation.CTYPE
+      WHERE violation.TOTAL_ACTION = 'H' OR violation.TOTAL_ACTION = 'W' ORDER BY cname ASC,violation.PROC_DATETIME desc
+      
+SELECT DISTINCT dctype,cname,violation.TOTAL_ACTION,ctitle,gname,tool_id,recipe_id,work_area from 
+(SELECT DISTINCT d.GNO gno,d.DC_TYPE dctype,b.CNAME cname,b.CNO CNO,b.CTYPE ctype,b.CTITLE ctitle,d.GNAME gname,c.TOOL_ID tool_id,c.RECIPE_ID recipe_id,g.WORK_AREA work_area
+FROM SPCCM1 a,SPCCM2 b,SPCGM1 c,SPCGM2 d,SPCGDAT e,BRTOOL g
+WHERE d.DC_TYPE LIKE '%' AND
+d.GNAME LIKE '%' AND
+d.GNO = b.GNO AND 
+d.GNO = a.GNO AND
+d.GNO = c.GNO AND 
+c.TOOL_ID = g.TOOL_ID AND
+b.CNAME LIKE '%' AND 
+c.TOOL_ID LIKE '%' AND
+c.RECIPE_ID LIKE '%' AND
+g.WORK_AREA LIKE '%') AS ChartInfo
+LEFT OUTER JOIN
+SPCGDAT violation ON ChartInfo.dctype = violation.DC_TYPE AND ChartInfo.gno = violation.GNO AND ChartInfo.cno = violation.CNO AND ChartInfo.ctype = violation.CTYPE
+WHERE violation.TOTAL_ACTION = 'H' OR violation.TOTAL_ACTION = 'W' ORDER BY cname ASC,violation.PROC_DATETIME desc
+
+http://w3-07.ibm.com/services/ap/cvwizard/cv-wizard.nsf/webfmCVInfo?OpenForm简历
+
+SELECT DISTINCT dctype,cname,violation.TOTAL_ACTION,ctitle,gname,tool_id,recipe_id,work_area,violation.PROC_DATETIME from
+(SELECT DISTINCT i.GNO GNO,d.DC_TYPE dctype,b.CNAME cname,b.CTITLE,b.CNO CNO,b.CTYPE ctype,d.GNAME gname,c.TOOL_ID tool_id,c.RECIPE_ID recipe_id,g.WORK_AREA work_area,h.FOLDER_GROUP,h.FOLDER_NAME,h.FOLDER_OWNER
+FROM SPCCM1 a,SPCCM2 b,SPCGM1 c,SPCGM2 d,BRTOOL g,SPCFOLDER h,SPCFOLDER_CHART i
+WHERE d.DC_TYPE LIKE '%' AND
+      b.CNAME LIKE '%' AND
+      h.FOLDER_GROUP LIKE '%' AND
+      h.FOLDER_NAME LIKE '%' AND
+      h.FOLDER_OWNER LIKE '%' AND
+      h.FOLDER_OWNER = i.FOLDER_OWNER AND
+      d.GNO = i.GNO AND
+      i.GNO = b.GNO AND 
+      i.GNO = a.GNO AND
+      i.GNO = c.GNO AND 
+      c.TOOL_ID = g.TOOL_ID) AS ChartInfo
+      LEFT OUTER JOIN
+      SPCGDAT violation ON ChartInfo.dctype = violation.DC_TYPE AND ChartInfo.gno = violation.GNO AND ChartInfo.cno = violation.CNO AND ChartInfo.ctype = violation.CTYPE
+      WHERE violation.TOTAL_ACTION = 'H' OR violation.TOTAL_ACTION = 'W' ORDER BY cname ASC,violation.PROC_DATETIME desc
+
+SELECT DISTINCT dctype,cname,violation.TOTAL_ACTION,ctitle,gname,tool_id,recipe_id,work_area from 
+(SELECT DISTINCT d.GNO gno,d.DC_TYPE dctype,b.CNAME cname,b.CNO CNO,b.CTYPE ctype,b.CTITLE ctitle,d.GNAME gname,c.TOOL_ID tool_id,c.RECIPE_ID recipe_id,g.WORK_AREA work_area
+FROM SPCCM1 a,SPCCM2 b,SPCGM1 c,SPCGM2 d,SPCGDAT e,BRTOOL g
+WHERE d.DC_TYPE LIKE '%' AND
+      d.GNAME LIKE '%' AND
+     d.GNO = b.GNO AND 
+      d.GNO = a.GNO AND
+      d.GNO = c.GNO AND 
+      c.TOOL_ID = g.TOOL_ID AND
+      b.CNAME LIKE '%' AND 
+      c.TOOL_ID LIKE '%' AND
+      c.RECIPE_ID LIKE '%' AND
+      g.WORK_AREA LIKE '%') AS ChartInfo
+      LEFT OUTER JOIN
+      SPCGDAT violation ON ChartInfo.dctype = violation.DC_TYPE AND ChartInfo.gno = violation.GNO AND ChartInfo.cno = violation.CNO AND ChartInfo.ctype = violation.CTYPE
+      WHERE violation.TOTAL_ACTION = 'H' OR violation.TOTAL_ACTION = 'W' ORDER BY cname ASC,violation.PROC_DATETIME desc
+      
+SELECT DISTINCT d.DC_TYPE,b.CNAME,b.CTITLE,d.GNAME,c.TOOL_ID,c.RECIPE_ID,e.WORK_AREA 
+FROM SPCCM1 a,SPCCM2 b,SPCGM1 c,SPCGM2 d,BRTOOL e
+WHERE d.DC_TYPE LIKE '?%' AND
+      d.GNAME LIKE '?%' AND 
+      d.GNO = b.GNO AND 
+      d.GNO = a.GNO AND
+      d.GNO = c.GNO AND 
+      c.TOOL_ID = e.TOOL_ID AND
+      b.CNAME LIKE '?%' AND 
+      c.TOOL_ID LIKE '?%' AND
+      c.RECIPE_ID LIKE '?%' AND
+      e.WORK_AREA LIKE '?%'
+      
+SELECT TOTAL_ACTION FROM
+SPC.SPCGDAT WHERE DC_TYPE = 'dc_type' AND GNO = Chart.gno AND CNO = Chart.cno AND CTYPE = Chart.ctype
+ORDER BY PROC_DATETIME DESC FETCH FIRST 1 ROWS ONLY"
+
+SELECT DISTINCT g.GNO,d.DC_TYPE,b.CNAME,b.CTITLE,b.CNO,b.CTYPE,d.GNAME,c.TOOL_ID,c.RECIPE_ID,e.WORK_AREA,f.FOLDER_GROUP,f.FOLDER_NAME,f.FOLDER_OWNER
+FROM SPCCM1 a,SPCCM2 b,SPCGM1 c,SPCGM2 d,BRTOOL e,SPCFOLDER f,SPCFOLDER_CHART g
+WHERE d.DC_TYPE LIKE '?%' AND
+b.CNAME LIKE '?%' AND
+f.FOLDER_GROUP LIKE '?%' AND
+f.FOLDER_NAME LIKE '?%' AND
+f.FOLDER_OWNER LIKE '?%' AND
+f.FOLDER_OWNER = g.FOLDER_OWNER AND
+d.GNO = g.GNO AND
+g.GNO = b.GNO AND 
+g.GNO = a.GNO AND
+g.GNO = c.GNO AND 
+c.TOOL_ID = e.TOOL_ID
+------------------------------------------------------------------------
+SELECT DISTINCT d.GNO,d.DC_TYPE,b.CNAME,b.CNO,b.CTYPE,b.CTITLE,d.GNAME
+FROM SPCCM1 a,SPCCM2 b,SPCGM1 c,SPCGM2 d,SPCGDAT e,BRTOOL f
+WHERE d.DC_TYPE LIKE '?%' AND
+      d.GNAME LIKE '?%' AND
+      b.CNAME LIKE '?%' AND 
+      c.TOOL_ID LIKE '?%' AND
+      c.RECIPE_ID LIKE '?%' AND
+      f.WORK_AREA LIKE '?%' AND
+      d.DC_TYPE = b.DC_TYPE AND
+      d.GNO = b.GNO AND 
+      d.GNO = a.GNO AND
+      d.GNO = c.GNO AND 
+      c.TOOL_ID = f.TOOL_ID
+      
+      
+SELECT DISTINCT e.GNO,c.DC_TYPE,b.CNAME,b.CTITLE,b.CNO,b.CTYPE,c.GNAME,d.FOLDER_GROUP,d.FOLDER_NAME,d.FOLDER_OWNER
+FROM SPCCM1 a,SPCCM2 b,SPCGM2 c,SPCFOLDER d,SPCFOLDER_CHART e
+WHERE c.DC_TYPE LIKE '%' AND
+b.CNAME LIKE '%' AND
+d.FOLDER_GROUP LIKE '%' AND
+d.FOLDER_NAME LIKE '%' AND
+d.FOLDER_OWNER LIKE '%' AND
+d.FOLDER_OWNER = e.FOLDER_OWNER AND
+d.FOLDER_NAME = e.FOLDER_NAME AND
+c.DC_TYPE = b.DC_TYPE AND
+c.GNO = e.GNO AND
+e.GNO = b.GNO AND 
+e.GNO = a.GNO
+
+SELECT DISTINCT c.GNO,c.DC_TYPE,a.CNAME,a.CNO,a.CTYPE,a.CTITLE,c.GNAME
+            FROM SPCCM2 a,SPCGM1 b,SPCGM2 c,BRTOOL e
+            WHERE c.DC_TYPE LIKE '?%' AND
+                c.GNAME LIKE '?%' AND
+                a.CNAME LIKE '?%' AND 
+                b.TOOL_ID LIKE '?%' AND
+                b.RECIPE_ID LIKE '?%' AND
+                e.WORK_AREA LIKE '?%' AND
+                c.DC_TYPE = a.DC_TYPE AND
+                c.GNO = a.GNO AND 
+                c.GNO = b.GNO AND 
+                b.TOOL_ID = e.TOOL_ID
+                
+SELECT DISTINCT c.GNO,c.DC_TYPE,a.CNAME,a.CNO,a.CTYPE,a.CTITLE,c.GNAME
+            FROM SPCCM2 a,SPCGM1 b,SPCGM2 c,BRTOOL d
+            WHERE c.DC_TYPE LIKE 'Measurement%' AND
+                c.GNAME LIKE 'JJIB02_M%' AND
+                a.CNAME LIKE '%' AND 
+                b.TOOL_ID LIKE '%' AND
+                b.RECIPE_ID LIKE '%' AND
+                d.WORK_AREA LIKE '%' AND
+                c.DC_TYPE = a.DC_TYPE AND
+                c.DC_TYPE = b.DC_TYPE AND
+                c.GNO = a.GNO AND 
+                c.GNO = b.GNO AND 
+                b.TOOL_ID = d.TOOL_ID
+                
+SELECT DISTINCT e.GNO,b.CNO,b.CTYPE,c.DC_TYPE,b.CNAME,b.CTITLE,c.GNAME,d.FOLDER_GROUP,d.FOLDER_NAME,d.FOLDER_OWNER
+    FROM SPCCM1 a,SPCCM2 b,SPCGM2 c,SPCFOLDER d,SPCFOLDER_CHART e
+    WHERE c.DC_TYPE LIKE '%' AND
+    b.CNAME LIKE '%' AND
+    d.FOLDER_GROUP LIKE '%' AND
+    d.FOLDER_NAME LIKE '%' AND
+    d.FOLDER_OWNER LIKE '%' AND
+    d.FOLDER_OWNER = e.FOLDER_OWNER AND
+    d.FOLDER_NAME = e.FOLDER_NAME AND
+    c.DC_TYPE = b.DC_TYPE AND
+    c.GNO = e.GNO AND
+    e.GNO = b.GNO AND 
+    e.GNO = b.GNO AND
+    e.GNO = a.GNO
+C:\SJQ\MUX\WSPC\MUXDB\GM_SEARCH.del        
+https://apps.na.collabserv.com/forums/html/topic?id=60eb8235-ce64-4190-93e6-08dd8af75e55 
+
+Chun Mo/China/IBM, Mihoko Horiike/Japan/IBM@IBMJP, Satoshi Yamamoto/Japan/Contr/IBM@IBMJP, 
+http://sirius.yasu.ibm.com:9089/wspcgd/wspcui.jsp
+
+https://apps.na.collabserv.com/communities/service/html/communityview?communityUuid=5d3cb9c1-decd-4cc3-82d8-918e3d223f61#fullpageWidgetId=W44d49c1a8e4f_49cc_87bb_5ba57de21bef&folder=97b54e2d-1381-49de-9b3a-83a47b85367c
+离职
+https://w3-connections.ibm.com/wikis/home?lang=jv#!/wiki/CDL%20Xian%20Information%20Sharing/page/Separation%EF%BC%88%E7%A6%BB%E8%81%8C%E6%B5%81%E7%A8%8B%EF%BC%89
+机器返还
+https://w3-connections.ibm.com/wikis/home?lang=jv#!/wiki/IBMChinaGDC/page/Workstation%20Return%20%20Procedure%20%EF%BC%88%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%BF%94%E8%BF%98%E6%B5%81%E7%A8%8B%EF%BC%89
+Notes功能ID申请流程
+https://w3-connections.ibm.com/wikis/home?lang=jv#!/wiki/IBMChinaGDC/page/Functional%20ID%20Application%20Procedure%EF%BC%88Notes%E5%8A%9F%E8%83%BDID%E7%94%B3%E8%AF%B7%E6%B5%81%E7%A8%8B%EF%BC%89
+Employee Authorization for Information Release
+离职调查问卷
+Statement of Understanding

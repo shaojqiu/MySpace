@@ -1,0 +1,144 @@
+SOP相关说明
+1. Entity Inhibit功能的主要目的：在产品生产加工过程中，需要对生产过程中的某些资源（例如Equipment，）进行维护及
+改进的工作，此时必须对要维护的resource进行暂时禁用。通过对resource进行分析及改进后，
+可以提高产品的质量及生产的效率。
+
+2. Future Hold Registration界面，有针对Future Hold Operation before/after的控制
+如果是before，表示进入Future Hold Operation的同时进行Hold操作。
+如果是after,表示Future Hold Operation完成以后，在Next Operation进行Hold操作
+-------------------------------------------------------------------------------------------------------------
+192.168.81.177
+Carrier Category Capability List
+-------------------------------------------------------------------------------------------------------------
+IBMServer
+192.168.70.15
+instdev1
+instdev1
+-------------------------------------------------------------------------------------------------------------
+/common/siview/sdk/v17.0.1EB-mm_sdk
+-------------------------------------------------------------------------------------------------------------
+clear case cco cci
+-------------------------------------------------------------------------------------------------------------
+lslpp -L aix软件管理命令
+-------------------------------------------------------------------------------------------------------------
+cd svcmgr
+ls -l *.src
+view cs_pptmsg.src
+ls -l *rc*
+cat cs_pptrc.h
+ls -l *run*
+cat runcat.ksh
+ls -l *.cat
+cat cs_pptmsg.cat
+cat cs_pptmsg.h
+-------------------------------------------------------------------------------------------------------------
+MMServer相关信息
+make TxInterFabXferLotReceiveReq.cpp.o
+cd posppt
+make -f mklibs.mak all -->*.a
+mkso
+dspprocs -x
+txtsaoclt IBMHOSTNAME:21100 mmserver
+txtsaoclt IBMHOSTNAME:21101 mmserver01
+txtsaoclt IBMHOSTNAME:21102 mmserver02
+nohup startmm00.ksh >/dev/null &
+nohup startmm01.ksh >/dev/null &
+nohup startmm02.ksh >/dev/null &
+sptraceclt IBMHOSTNAME MMS:27102000111111111111111111111111:21102:EBROKER
+slibclean  libcs_pptmgri.so
+cp -p libtxmethods.so $HOME/siviewd1/customize/mm/lib
+libcs_pptmgri.so
+cp -p libcs_pptmgri.so /home/siviewd1/customize//mm/lib
+make -f $HOME/bin/mkso.mak  libcs_svcclt.so
+--------------------------------------------------------------------------------------------------------------
+mmlog -> sptraceclt IBMHOSTNAME MMS:27100000111111111111111111111111:21100:EBROKER
+         sptraceclt IBMHOSTNAME MMS:27102000111111111111111111111111:21102:EBROKER
+         sptraceclt hostname marker:uuid:portnumber:orbtype
+--------------------------------------------------------------------------------------------------------------
+模块更新
+/home/bin/update_csmmfile.ksh
+--------------------------------------------------------------------------------------------------------------
+\\192.168.81.177   IBM MMServer学习资料  sjunqiu
+--------------------------------------------------------------------------------------------------------------
+mmserver02
+21102  
+27102000111111111111111111111111
+--------------------------------------------------------------------------------------------------------------
+schclient配置
+DB2 catalog tcpip node NDMM1 remote 192.168.70.15 server 60012
+DB2 catalog db NDMM1 at node NDMM1
+db2set db2codepage=1386
+db2 terminate
+db2stop force
+db2start
+--------------------------------------------------------------------------------------------------------------
+Schedule Client参数配置
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\IBM\SiView
+--------------------------------------------------------------------------------------------------------------
+BRUSERDEFATTRINFO  User Define Data
+BRCLASSFIELDINFO class ID
+CLASSID         : EQ01
+SEQNO           :           0
+NAME            : S_EQP_PRControl
+TYPE            : String
+DESCRIPTION     : Avoid to process Lot with PR Flag
+INITIALVALUE    : AvoidPR
+SELECTEDCLASSID :
+SELECTEDCATEGORY: EquipmentPRControl
+MANDATORYFLAG   :             1
+db2 "select * from BRCLASSFIELDINFO where tablename='FBBANK'"|sel
+FA04
+db2 "insert into BRUSERDEFATTRINFO values('FA04',0,'S_Shao','String','','hahaha','','',0)"
+--------------------------------------------------------------------------------------------------------------
+txCassetteDeliveryReq
+txCassetteDeliveryForInternalBufferReq
+txWaferSorterOnEqpReq
+txVendorLotPreparationReq
+txVendorLotReceiveAndPrepareReq
+--------------------------------------------------------------------------------------------------------------
+Siview Table Description
+FRLOT                 Lot相关资料
+FRPRODSPEC_SOURCE     Source Product  D_THESYSTEMKEY
+FRPRODSPEC            根据D_THESYSTEMKEY索引D_THESYSTEMKEY,可以找到Route相关信息
+FRPD                  根据FRPRODSPEC的MAINPD_ID找到PD信息，并取出Active_ID
+--------------------------------------------------------------------------------------------------------------
+OPI IDL
+192.168.81.177  OPI IDL  idl位置
+192.168.81.177  document Coding Rule
+--------------------------------------------------------------------------------------------------------------
+AX7000002.00   AX700000201
+--------------------------------------------------------------------------------------------------------------
+db2 package bind相关资料
+首先对源文件做预编译（precompiler），生成两个部分文件：一部分是纯的C程序源文件，它们和其他的C程序源文件一起，
+经过编译和连接生成可执行的程序（executable program）；而另一部分是bind文件或package文件。Bind文件经过binder操作以后，
+也生成为package文件。所谓package，实际上是SQL语句的访问计划。所以，预编译器将源程序中的SQL语句提出来，生成他们的访问计划，
+并将访问计划存放在数据库管理器中。当执行程序并遇到访问数据库的命令时，它将到数据库管理器中寻找属于它的访问计划，
+然后按照访问计划中所设计的方法对数据库进行访问。具体来说：第一步、预编译源程序生成以后，在源程序中嵌入了许多SQL语句，
+而SQL语句是宿主语言编译器所不认识的，所以在用宿主语言编译器进行编译、连接之前必须将SQL语句分离出来，这就是预编译所做的工作。
+DB2中预编译操作是通过PREP命令执行的，PREP命令首先将源程序中的所有有关SQL语句全部注释起来，对它进行分析和语法检查。
+如果源程序中的SQL语句全部书写正确，则将这些SQL语句转换成C语言可以识别的一系列的API函数。这些函数可以在函数执行时访问数据库，
+然后将源文件中所有用于生成数据库管理器的PACKAGE的数据提出组合成一个BIND文件。也可以直接生成一个PACKAGE，
+但这相当于在预编译后又执行了一次BIND操作。在预编译时，对整个源程序文件中的所有变量做统一处理而不根据变量的生命期来处理，
+所以宿宿主变量在整个程序中是唯一的。下面讲解预编译的步骤：1）、连接到一个数据库，该操作是为BIND做准备。
+操作如下：db2 connect to cicstest2）、执行预编译命令，假设源文件为adhoc.sqc，则：db2 prep adhoc.sqc bindfile下面我们对预编译的几种输出文件进行讨论。
+l预编译后生成的C语言源文件：该文件中原有的SQL语句，已经全部加上注释并转换成了C语言可以识别的API调用。
+lBIND文件：如果在预编译时使用BINDFILE选项，则生成BIND文件，BIND文件的后缀为.bnd，BIND文件可以在将来使用BIND命令来生成PACKAGE。
+db2 bind adhoc.bnd如果在预编译时，只生成BIND文件，那么即使在预编译时，不能访问某些数据库对象，系统也只是报警，而不会报错。
+如果使用PACKAGE选项，则生成PACKAGE。如果有MESSAGE选项，则生成信息文件，它包含了所有的返回信息，如：警报、错误等。
+它便于程序员对源程序做进一步的修改。第二步、编译和连接在预编译后，程序中只有C语言语句，它们都可以为C语言的编译器所识别。
+所以，可以按照一般的方法进行编译和连接，但在将SQL语句转换以后，在C语言程序中，又引入了许多一般的C语言系统所没有的INCLUDE文件和函数库，
+这些均在DB2的SDK中。所以，要生成可执行的程序，就必须安装DB2的SDK，
+并且做以下设置：set INCLUDE=$(DB2PATH)include;%include%set LIB=$(DB2PATH)lib;%LIB%下面是编译和连接：cl -o adhoc.exe adhoc.c生成的可执行文件必须与数据库管理器中的PACKAGE相结合，
+才能执行。下面对BIND做进一步解释。PACKAGE是DB2为SQL语句制定的访问计划。通过precompile之后，源程序中的SQL语句部分就被分离出来。
+PACKAGE就是根据具体的SQL语句和数据库中的信息生成的针对每条SQL语句的访问计划，它存放在DB2数据库服务器上。
+应用程序执行到SQL语句时，就到相应的服务器上去找它们的PACKAGE，数据库服务器根据PACKAGE执行具体的数据库操作。
+所以，如果一个应用程序访问了多个数据库服务器，则该应用程序应在它访问到的数据库服务器上均生成相应的PACKAGE。
+因此，当遇到这种情况时，推荐的方式是将源程序分成若干个文件，每个文件只访问一个服务器，然后分别进行预编译。
+执行PREP命令时，加上选项PACKAGE或不注明BINDFILE、SYNTAX或SQLFLAG选项，这时BIND操作将自动进行。
+直接使用BIND命令从BIND文件中生成PACKAGE存放在数据库管理器中。BIND完成的功能是，从数据库中找到SQL语句所涉及的表，
+查看SQL语句中提到的表名及属性是否与数据库中的表名和属性相匹配，以及应用程序开发者是否有权限查询或修改应用程序中所涉及到的表及属性。
+这就是为什么在预编译之前要连接到相应的数据库上的原因。在做BIND操作后，在数据库管理器中就生成一个PACKAGE，PACKAGE的名字与源程序的文件名字相同。
+一个源文件在数据库中可有多个PACKAGE存在。为了区分不同的PACKAGE，DB2中引入了时间戳的概念。
+在PREP执行时，系统对生成的修改过的C语言程序和BIND文件以及PACKAGE中都加入了一个时间戳。BIND文件在生成PACKAGE时也将时间戳传递下来，
+修改过的C语言程序在生成可执行程序时，同样也将时间戳传递下去。当应用程序运行时，可执行程序是通过时间戳找到相应的PACKAGE，
+如果时间戳不匹配，则说明版本更新，需要做BIND。
